@@ -1,11 +1,10 @@
 function setup() {
   // put setup code here
-  createCanvas(500,500);
-
+  createCanvas(500, 500);
 }
 
 function draw() {
-  // put drawing code here
   background(0);
-  ellipse(0, 0, 100, 90);
+  fill(255, 0, 0);
+  ellipse(0, width / 2, 100, 90);
 }
