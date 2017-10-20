@@ -1,12 +1,15 @@
+let data;
+let projects;
+
 function setup() {
-  // put setup code here
-  createCanvas(500, 500);
+  data = loadJSON("data.json", loaded);
 }
 
-function draw() {
-  background(0);
-  fill(255, 0, 0);
-  ellipse(0, width / 2, 100, 90);
-  rect(width / 2, height / 2, width / 3, height / 5);
-  //Comments are helpful!
+function loaded() {
+  let projects = data.projects;
+  console.log(data);
+  //create div for each one
+  for (let i = 0; i < data.projects.length; i++) {
+    console.log(projects[i]);
+  }
 }
