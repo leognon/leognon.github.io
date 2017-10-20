@@ -8,4 +8,5 @@ function draw() {
   fill(255, 0, 0);
   ellipse(0, width / 2, 100, 90);
   rect(width / 2, height / 2, width / 3, height / 5);
+  //Comments are helpful!
 }
