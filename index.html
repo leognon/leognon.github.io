@@ -4,8 +4,34 @@
 <head>
   <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
   <style>
-    div {
+    .container {
       border: 3px solid red;
+      width: 600px;
+      height: auto;
+      padding: 1px;
+      float: left;
+    }
+
+    .left {
+      float: left;
+    }
+
+    .right {
+      float: left;
+    }
+
+    .img {
+      width: 300px;
+      height: 169px;
+    }
+
+    .descBox {
+      padding-left: 2px;
+      padding-right: 2px;
+      width: 296px;
+      /* THE WIDTH SHOULD ALWAYS BE .container width - .img width - padding-left - padding right*/
+      word-break: break-all;
+      word-wrap: break-word;
     }
   </style>
   <script src="addons/p5.min.js"></script>
@@ -16,17 +42,19 @@
 
 <body>
 
-  <div>
+  <div class="container">
     <h1>ShapesGame+</h1>
-    <img src="img/shapesGame+Img.jpg" alt="ShapesGame+ Img" width="400">
+    <div class="left">
+      <img class="img" src="img/shapesGame+Img.jpg" alt="ShapesGame+ Img" />
+    </div>
 
-
-
-
-
-
-
-
+    <div class="right">
+      <p class="descBox">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, obcaecati vel modi quisquam esse beata e commodi voluptate
+        itani sdfmnb asdfmnb asdfsdfjhgsfadjhgvffghajfsdafghbjsbfghadhbfgjbhfgjadbfghjab safgh hsgf fhdf hfd g dfj dhfg fdsaghdf
+        hg afsdhj fdshj asdhfga dfshg fasdghjj dfshgdsfte quia laboriosam natus eos expedita?
+      </p>
+    </div>
   </div>
 
 
