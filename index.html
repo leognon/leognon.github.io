@@ -5,10 +5,10 @@
   <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
   <style>
     .container {
-      border: 3px solid red;
+      border: 2px solid rgb(36, 34, 145);
       width: 600px;
       height: auto;
-      padding: 1px;
+      padding: 3px;
       float: left;
     }
 
@@ -21,21 +21,29 @@
     }
 
     .img {
+      padding-left: 3px;
       width: 300px;
       height: 169px;
     }
 
     .descBox {
-      padding-left: 2px;
+      padding-left: 4px;
       padding-right: 2px;
-      width: 296px;
-      /* THE WIDTH SHOULD ALWAYS BE .container width - .img width - padding-left - padding right*/
-      word-break: break-all;
+      width: 291px;
+      /* THE WIDTH SHOULD ALWAYS BE .container width - .img width - .img padding - padding-left - padding right*/
       word-wrap: break-word;
     }
 
     .infoBox {
       float: right;
+      padding-right: 10px;
+      line-height: 4px;
+    }
+
+    .title {
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
   </style>
   <script src="addons/p5.min.js"></script>
@@ -47,26 +55,18 @@
 <body>
 
   <div class="container">
-    <h1 style="text-align: center">ShapesGame+</h1>
-    <div>
-      <div class="left">
-        <img class="img" src="img/shapesGame+Img.jpg" alt="ShapesGame+ Img" />
-      </div>
+    <h1 class="title">ShapesGame+</h1>
+    <img class="img left" src="img/shapesGame+Img.jpg" alt="ShapesGame+ Img" />
 
-      <div class="right">
-        <p class="descBox">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, obcaecati vel modi quisquam esse beata e commodi voluptate
-          itani sdfmnb asdfmnb asdfsdfjhgsfadjhgvffghajfsdafghbjsbfghadhbfgjbhfgjadbfghjab safgh hsgf fhdf hfd g dfj dhfg
-          fdsaghdf hg afsdhj fdshj asdhfga dfshg fasdghjj dfshgdsfte quia laboriosam natus eos expedita?
-        </p>
-      </div>
-    </div>
-    <!-- GET THE DATE AND CODE P'S TO BE BELOW THE IMAGE AND DESC -->
-    <div class="infoBox" style="display:inline-block">
+    <p class="descBox right">
+      Shapes Game is a fun game you can play. You eat circles, and avoid squares.
+    </p>
+    <div class="infoBox">
       <p>Date: 10/10/10</p>
       <p>Code: www.codeishere.com</p>
     </div>
   </div>
+
 
 
 </body>
