@@ -4,14 +4,27 @@
 <head>
   <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
   <style>
+    .formatFix {
+      clear: both;
+    }
+
+    .projects-container {
+      margin: 10px;
+      width: max(calc(100% - 20), calc(600px + 4px + 6px + 20px));
+      background: rgb(220, 220, 220);
+      float: left;
+      text-align: center;
+    }
+
     .container {
-      border: 2px solid rgb(36, 34, 145);
+      border: 2px solid black;
       width: 600px;
       height: auto;
       padding: 3px;
+      /* margin: 10px auto 10px auto; */
+      display: inline-block;
       margin: 10px;
       background-color: rgb(190, 190, 190);
-      /* float: left; */
     }
 
     .left {
@@ -20,6 +33,12 @@
 
     .right {
       float: right;
+    }
+
+    .title {
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
 
     .img {
@@ -41,22 +60,6 @@
       padding-top: 68px;
       padding-right: 10px;
       line-height: 4px;
-    }
-
-    .formatFix {
-      clear: both;
-    }
-
-    .title {
-      text-align: center;
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
-
-    .projects-container {
-      margin: 10px;
-      background: rgb(220, 220, 220);
-      float: left;
     }
   </style>
   <script src="addons/p5.min.js"></script>
