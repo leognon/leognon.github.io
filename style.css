@@ -16,6 +16,8 @@ h2 {
     background: rgb(220, 220, 220);
     float: left;
     text-align: center;
+    zoom: 0.7;
+    -moz-transform: scale(0.5);
 }
 
 .container {
