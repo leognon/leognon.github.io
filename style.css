@@ -2,6 +2,12 @@
     clear: both;
 }
 
+p,
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .projects-container {
     border-radius: 7px;
     margin: 10px;
@@ -18,7 +24,6 @@
     width: 600px;
     height: auto;
     padding: 3px;
-    /* margin: 10px auto 10px auto; */
     display: inline-block;
     margin: 10px;
     background-color: rgb(190, 190, 190);
@@ -34,6 +39,7 @@
 
 .title {
     text-align: center;
+    font-weight: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
