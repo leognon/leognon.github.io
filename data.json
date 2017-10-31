@@ -1,12 +1,12 @@
 {
     "projects": [{
             "name": "ShapesGame++++",
-            "desc": "Fun game to play!+++",
-            "code": "link to code here!+++",
-            "date": "10/10/10+++",
+            "link": "link to game here!++++",
             "imgPath": "/pathHere!+++++++",
+            "desc": "Fun game to play!+++",
+            "date": "10/10/10+++",
             "language": "javascript",
-            "link": "link to game here!++++"
+            "codeLink": "link to code here!+++",
         },
         {
             "name": "ShapesGame",
