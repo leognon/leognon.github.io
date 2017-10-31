@@ -14,14 +14,13 @@ function setup() {
 }
 
 function loaded() {
-  // let projects = data.projects;
+  let projects = data.projects;
   // console.log(data);
-  // //create div for each one
-  // for (let i = 0; i < data.projects.length; i++) {
-  //   console.log(projects[i]);
-  //   // createProject(projects[i]);
-  // }
-  createProject();
+  //create div for each one
+  for (let i = 0; i < data.projects.length; i++) {
+    // console.log(projects[i]);
+    createProject(projects[i]);
+  }
 }
 
 function createProject(project) {
@@ -41,7 +40,7 @@ function createProject(project) {
   let infoBox = createEle('div', container, 'infoBox');
 
   let dateP = createEle('p', infoBox, 'none', "Date: " + project.date);
-  let languageP = createEle('p', infoBox, 'none', project.language);
+  let languageP = createEle('p', infoBox, 'none', "Language: " + project.language);
 
   let codeP = createEle('p', infoBox, 'none', "Code: ");
   let codeA = createEle('a', codeP, 'none', project.codeLink);
