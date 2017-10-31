@@ -9,6 +9,7 @@ function setup() {
     1. Make width of projects-container flexible with max between (100% - margin-width) and (width of each project)
     2. Set min-width of projects-container to the width of a project
     2. Fix width of descBox to be flexible with img width and (.container width - .img width - .img padding - padding-left - padding right)
+    3. REDUCE PADDING FOR CONTAINER AND FIGURE OUT WHY THE LEFT SIDE OF IMAGES AREN'T ROUNDED
   */
 }
 
@@ -24,17 +25,19 @@ function loaded() {
 }
 
 function createProject(project) {
+  /*TODO for this function - 
+  Make everything use project.___
+  Link titleA and imgA
+  */
   let container = createEle('div', projectsContainer, 'container');
 
   let titleH = createEle('h2', container, 'title');
   let titleA = createEle('a', titleH, '', "The title!"); //Put project.title here and style this to link
 
   let imgA = createEle('a', container, 'none'); //Link this
-  let img = createEle('img', imgA, 'img left'); //Add img src and alt
-  img.style("src", "img/shapesGame+Img.jpg"); //GET IMG TO SHOW!
-  img.style("alt", "ShapesGame+ Img");
+  let img = createImg("img/shapesGame+Img.jpg", "ShapesGame+ Img").addClass('img left');
+  img.parent(imgA);
 
-  //REDUCE PADDING FOR CONTAINER AND FIGURE OUT WHY THE LEFT SIDE OF IMAGES AREN'T ROUNDED
 }
 //createEle('h2', projectsContainer, 'title');
 function createEle(tag, theParent, theClass, content) {
