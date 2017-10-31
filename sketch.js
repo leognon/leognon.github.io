@@ -25,21 +25,29 @@ function loaded() {
 }
 
 function createProject(project) {
-  /*TODO for this function - 
-  Make everything use project.___
-  Link titleA and imgA
-  */
   let container = createEle('div', projectsContainer, 'container');
 
   let titleH = createEle('h2', container, 'title');
-  let titleA = createEle('a', titleH, '', "The title!"); //Put project.title here and style this to link
+  let titleA = createEle('a', titleH, 'none', project.name);
+  titleA.attribute("href", project.link);
 
-  let imgA = createEle('a', container, 'none'); //Link this
-  let img = createImg("img/shapesGame+Img.jpg", "ShapesGame+ Img").addClass('img left');
+  let imgA = createEle('a', container, 'none');
+  imgA.attribute("href", project.link);
+  let img = createImg(project.imgPath, project.name + " img").addClass('img left');
   img.parent(imgA);
 
+  let descBox = createEle('p', container, 'descBox right', project.desc);
+
+  let infoBox = createEle('div', container, 'infoBox');
+
+  let dateP = createEle('p', infoBox, 'none', "Date: " + project.date);
+  let languageP = createEle('p', infoBox, 'none', project.language);
+
+  let codeP = createEle('p', infoBox, 'none', "Code: ");
+  let codeA = createEle('a', codeP, 'none', project.codeLink);
+  codeA.attribute("href", project.codeLink);
 }
-//createEle('h2', projectsContainer, 'title');
+
 function createEle(tag, theParent, theClass, content) {
   let ele = createElement(tag);
   ele.addClass(theClass);
@@ -48,16 +56,4 @@ function createEle(tag, theParent, theClass, content) {
     ele.html(content);
   }
   return ele;
-
-  // createElement(tag).addClass(theClass);
-  // let ele = select("." + theClass);
-  // ele.parent(theParent);
 }
-
-/*
-create element and set a var to it
-add the class to that var
-set the parent to that var
-DONT USE SELECT!
-
-*/
