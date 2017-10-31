@@ -69,6 +69,11 @@ a:hover {
     margin-bottom: 5px;
 }
 
+.rightContainer {
+    width: 297px;
+    float: right;
+}
+
 .img {
     border-radius: 4px;
     padding-left: 3px;
@@ -86,7 +91,7 @@ a:hover {
 
 .infoBox {
     float: right;
-    padding-top: 68px;
+    /* padding-top: 68px; */
     padding-right: 10px;
     line-height: 4px;
 }
