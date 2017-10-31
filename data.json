@@ -1,21 +1,12 @@
 {
     "projects": [{
-            "name": "ShapesGame++++",
-            "link": "link to game here!++++",
+            "name": "ShapesGame+",
+            "link": "ShapesGame+ link",
             "imgPath": "/pathHere!+++++++",
-            "desc": "Fun game to play!+++",
+            "desc": "ShapesGame+ is an updated version of ShapesGame. Your player (white circle) will follow the mouse, and you have collect the dots to grow, get faster and gain score. You have to avoid the red squares being shot at you from the center. This version uses vectors, rotation",
             "date": "10/10/10+++",
-            "language": "javascript",
+            "language": "Javascript",
             "codeLink": "link to code here!+++"
-        },
-        {
-            "name": "ShapesGame",
-            "desc": "desc of ShapesGame",
-            "code": "link to code here shapesGame",
-            "date": "10/10/10 ShapesGame",
-            "imgPath": "/pathHereOfShapesGame!",
-            "language": "javascript+++++",
-            "link": "link to game here!of ShapesGame"
         }
     ]
 }
