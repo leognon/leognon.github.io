@@ -14,7 +14,7 @@
             "name": "Maze",
             "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
             "imgPath": "img/Maze.jpg",
-            "desc": "",
+            "desc": "In this game, you have to solve a randomly generated maze within the time limit. Credit to Daniel Shiffman for the maze generation algorithm and code. Each level, the maze gets more and more difficult.",
             "date": "Jan 22, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
@@ -23,7 +23,7 @@
             "name": "Pixelvasion",
             "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
             "imgPath": "img/Pixelvasion.jpg",
-            "desc": "",
+            "desc": "This is a game I made (and won) for the itch.io Pixel Jam (https://itch.io/jam/pixel-jam). In this game, you are defending the earth from an army of pixel monsters, who are trying to pixelate the world.",
             "date": "Jan 22, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
@@ -32,7 +32,7 @@
             "name": "Pong+",
             "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
             "imgPath": "img/Pong+.jpg",
-            "desc": "",
+            "desc": "Pong+ is a  2 player game where one is shooting the pong balls, and the other has to avoid them. You when the other player gets hit. First to five wins!",
             "date": "Jan 22, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
@@ -41,7 +41,7 @@
             "name": "ShapesGame",
             "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
             "imgPath": "img/ShapesGame.jpg",
-            "desc": "",
+            "desc": "ShapesGame is one of my first games, where you have to collect dots and avoid squares. Since it's one of my first games, it doesn't use vectors so you can move faster by going diagonally.",
             "date": "Jan 22, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
@@ -50,7 +50,7 @@
             "name": "ELA SharkTankGame",
             "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
             "imgPath": "img/ELA_SharkTankGame.jpg",
-            "desc": "",
+            "desc": "This is a game that I wrote on a piece of paper, after a 7th grade end of grade test. Later, I copied the code onto my computer, and after a little while of fixing some bugs, I had it working. You move up and down with your mouse, and avoid the red rectangles coming at you.",
             "date": "Jan 22, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
@@ -59,7 +59,7 @@
             "name": "Game",
             "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
             "imgPath": "img/Game.jpg",
-            "desc": "",
+            "desc": "This is an unfinished game, meant to be a little like diep.io, but without multiplayer. I never came up with a good name, since I never finished, so I just called it game. You move towards your mouse, and click to shoot. There are turrets that shoot at you, but there is no collision detection so nothing happens when you or the turrets get hit.",
             "date": "Jan 22, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
