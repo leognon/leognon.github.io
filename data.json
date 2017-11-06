@@ -1,12 +1,68 @@
 {
-    "projects": [{
+    "projects": [
+
+        {
             "name": "ShapesGame+",
-            "link": "ShapesGame+ link",
-            "imgPath": "img/shapesGame+Img.jpg",
+            "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
+            "imgPath": "img/ShapesGame+.jpg",
             "desc": "ShapesGame+ is an updated version of ShapesGame. Your player (white circle) will follow the mouse, and you have collect the dots to grow, get faster and gain score. You have to avoid the red squares being shot at you from the center. This version uses vectors, rotation",
-            "date": "10/10/10+++",
+            "date": "Jan 22, 2017",
             "language": "Javascript",
-            "codeLink": "link to code here!+++"
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
+        },
+        {
+            "name": "Maze",
+            "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
+            "imgPath": "img/Maze.jpg",
+            "desc": "",
+            "date": "Jan 22, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
+        },
+        {
+            "name": "Pixelvasion",
+            "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
+            "imgPath": "img/Pixelvasion.jpg",
+            "desc": "",
+            "date": "Jan 22, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
+        },
+        {
+            "name": "Pong+",
+            "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
+            "imgPath": "img/Pong+.jpg",
+            "desc": "",
+            "date": "Jan 22, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
+        },
+        {
+            "name": "ShapesGame",
+            "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
+            "imgPath": "img/ShapesGame.jpg",
+            "desc": "",
+            "date": "Jan 22, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
+        },
+        {
+            "name": "ELA SharkTankGame",
+            "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
+            "imgPath": "img/ELA_SharkTankGame.jpg",
+            "desc": "",
+            "date": "Jan 22, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
+        },
+        {
+            "name": "Game",
+            "link": "https://github.com/Goel25/p5projects/tree/gh-pages/Game",
+            "imgPath": "img/Game.jpg",
+            "desc": "",
+            "date": "Jan 22, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
         }
     ]
 }
