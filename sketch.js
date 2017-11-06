@@ -38,7 +38,7 @@ function createProject(project) {
   let languageP = createEle('p', infoBox, 'none', "Language: " + project.language);
 
   let codeP = createEle('p', infoBox, 'none', "Code: ");
-  let codeA = createEle('a', codeP, 'none', project.codeLink);
+  let codeA = createEle('a', codeP, 'none', "Click here");
   codeA.attribute("href", project.codeLink);
 
   let formatFix = createEle('div', container, 'formatFix');
