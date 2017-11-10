@@ -41,7 +41,7 @@
             "name": "Game",
             "link": "https://Goel25.github.io/p5projects/Game",
             "imgPath": "img/Game.jpg",
-            "desc": "This is an unfinished game, meant to be a little like diep.io, but without multiplayer. I never came up with a good name, since I never finished, so I just called it game. You move towards your mouse, and click to shoot. There are turrets that shoot at you, but there is no collision detection so nothing happens when you or the turrets get hit. Althuough it isn't really playable and broken, I was able to reuse a lot of the code for other projects, and it was a good learning expierience.",
+            "desc": "This is an unfinished game. I never finished and just called it Game. You move towards your mouse, and click to shoot. There are turrets that shoot at you, but there is no collision detection so nothing happens when you or the turrets get hit. Althuough it isn't really playable and broken, I was able to reuse a lot of the code for other projects.",
             "date": "Jan 2, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
