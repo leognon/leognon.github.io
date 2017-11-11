@@ -1,8 +1,20 @@
 {
     "projects": [
 
+
         {
-            "name": "ELA SharkTankGame",
+            "name": "Space Escape",
+            "link": "https://goel25.github.io/p5projects/Space%20Escape/",
+            "imgPath": "img/spaceEscape.jpg",
+            "desc": "This was made for my 7th grade Shark Tank ELA project. First, since I was bored after the test I made the game on a piece of paper, but with my group, we came up with this idea for the game. I programmed it during school, and Noah and Dominic did the music and some graphics.",
+            "date": "June 2, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Space%20Escape"
+        },
+
+
+        {
+            "name": "Wrote on Piece of paper",
             "link": "https://Goel25.github.io/p5projects/ELA_SharkTankGame",
             "imgPath": "img/ELA_SharkTankGame.jpg",
             "desc": "This is a game that I wrote on a piece of paper, after a 7th grade end of grade test. Later, I copied the code onto my computer, and after a little while of fixing some bugs, I had it working. You move up and down with your mouse, and avoid the red rectangles coming at you.",
