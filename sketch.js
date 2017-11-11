@@ -1,8 +1,11 @@
 let data;
 let projects;
 let projectsContainer;
+let maxHeight = 1;
+let id = 0;
 
 function setup() {
+  noCanvas();
   data = loadJSON("data.json", loaded);
   projectsContainer = select(".projects-container");
 }
@@ -12,11 +15,28 @@ function loaded() {
   for (let i = 0; i < data.projects.length; i++) {
     createProject(projects[i]);
   }
+
+  let allContainers = document.getElementsByClassName("container");
+
+  for (let j = 0; j < allContainers.length; j++) {
+    let container = allContainers[j];
+
+    container.style.height = maxHeight + "px";
+
+    let title = container.getElementsByClassName("title")[0];
+    let desc = container.getElementsByClassName("descBox")[0];
+
+
+    let infoBox = container.getElementsByClassName("infoBox")[0];
+    let paddingTop = container.offsetHeight - (title.offsetHeight + desc.offsetHeight + infoBox.offsetHeight + 45);
+    console.log(paddingTop);
+    infoBox.style.cssText = "padding-top: " + paddingTop + "px";
+  }
 }
 
 function createProject(project) {
   let container = createEle('div', projectsContainer, 'container');
-
+  container.id(id);
 
   let titleH = createEle('h2', container, 'title');
   let titleA = createEle('a', titleH, 'none', project.name);
@@ -42,6 +62,13 @@ function createProject(project) {
   codeA.attribute("href", project.codeLink);
 
   let formatFix = createEle('div', container, 'formatFix');
+
+  let thisHeight = document.getElementById(id).offsetHeight;
+
+  if (thisHeight > maxHeight) {
+    maxHeight = thisHeight;
+  }
+  id++;
 }
 
 function createEle(tag, theParent, theClass, content) {
