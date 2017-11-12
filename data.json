@@ -1,6 +1,15 @@
 {
     "projects": [
 
+        {
+            "name": "Word Finder",
+            "link": "https://goel25.github.io/p5projects/Word%20Finder",
+            "imgPath": "img/wordFinder.jpg",
+            "desc": "I made this as a cheat for a mobile game called Word Cookies. In the game, you get a bunch of letters and have to make words of different lengths using those letters.",
+            "date": "August 11, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Word%20Finder"
+        },
 
         {
             "name": "Space Escape",
