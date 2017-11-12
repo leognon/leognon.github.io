@@ -79,12 +79,12 @@
 
         {
             "name": "Coloring",
-            "link": "https://goel25.github.io/p5projects/Coloring%20-%20My%20first%20project%20(Dec%203,%202016)/Index.html/",
+            "link": "https://goel25.github.io/p5projects/Coloring%20-%20My%20first%20project%20(Dec%203,%202016)/",
             "imgPath": "img/coloring.jpg",
             "desc": "My very first p5js program! Altough I did do some java before this, I consider this my first programming project, because this was the first time I really started to understand what I was doing. Thanks to Daniel Shiffman for teaching me 99% of what I know.",
             "date": "Dec 3, 2016",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Space%20Escape"
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Coloring%20-%20My%20first%20project%20(Dec%203%2C%202016)"
         }
 
     ]
