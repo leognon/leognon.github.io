@@ -2,6 +2,16 @@
     "projects": [
 
         {
+            "name": "Home Page",
+            "link": "https://goel25.github.io/homePage/",
+            "imgPath": "img/homePage.jpg",
+            "desc": "INCEPTION! I made this to organize all of my projects, and have a way to access them when I'm not locally on my computer.",
+            "date": "October 14, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/goel25/homePage"
+        },
+
+        {
             "name": "Word Finder",
             "link": "https://goel25.github.io/p5projects/Word%20Finder",
             "imgPath": "img/wordFinder.jpg",
