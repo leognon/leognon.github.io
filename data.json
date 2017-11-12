@@ -32,6 +32,15 @@
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Pixelvasion"
         },
         {
+            "name": "Harris B-day",
+            "link": "https://goel25.github.io/p5projects/Harris%20B-day/",
+            "imgPath": "img/HarrisB-day.jpg",
+            "desc": "Instead of making a birthday card for my brother, I programmed this. He watches a twitch streamer called phonecats, and this is his sub music, he also really wants a cat.",
+            "date": "April 12, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Harris%20B-day"
+        },
+        {
             "name": "Pong+",
             "link": "https://Goel25.github.io/p5projects/Pong+",
             "imgPath": "img/Pong+.jpg",
