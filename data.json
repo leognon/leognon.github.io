@@ -123,6 +123,16 @@
             "date": "June 23, 2016",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/oldProjects/tree/master/1st"
+        },
+
+        {
+            "name": "Minecraft Skript",
+            "link": "javascript:(function(){   alert('Sorry, but you cant run this project on the web.');   })()",
+            "imgPath": "none",
+            "desc": "When I had my Minecraft server, since I didn't know Java, I used a plugin called Skript to program. It's a lot like python and helped me learn the very basics of programming.",
+            "date": "~Jan 18, 2016",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/oldProjects/tree/master/scripts"
         }
 
     ]
