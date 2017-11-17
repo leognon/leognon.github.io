@@ -29,7 +29,7 @@ function loaded() {
 
     let infoBox = container.getElementsByClassName("infoBox")[0];
     let paddingTop = container.offsetHeight - (title.offsetHeight + desc.offsetHeight + infoBox.offsetHeight + 45);
-    console.log(paddingTop);
+    console.log(maxHeight);
     infoBox.style.cssText = "padding-top: " + paddingTop + "px";
   }
 }
@@ -42,10 +42,12 @@ function createProject(project) {
   let titleA = createEle('a', titleH, 'none', project.name);
   titleA.attribute("href", project.link);
 
-  let imgA = createEle('a', container, 'none');
-  imgA.attribute("href", project.link);
-  let img = createImg(project.imgPath, project.name + " img").addClass('img left');
-  img.parent(imgA);
+  if (project.imgPath != "none") {
+    let imgA = createEle('a', container, 'none');
+    imgA.attribute("href", project.link);
+    let img = createImg(project.imgPath, project.name + " img").addClass('img left');
+    img.parent(imgA);
+  }
 
 
   let rightContainer = createEle('div', container, 'rightContainer');
@@ -67,6 +69,7 @@ function createProject(project) {
 
   if (thisHeight > maxHeight) {
     maxHeight = thisHeight;
+    console.log("New leader is " + id + "   at " + thisHeight);
   }
   id++;
 }
