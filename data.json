@@ -2,6 +2,16 @@
     "projects": [
 
         {
+            "name": "Kittenator",
+            "link": "kitten",
+            "imgPath": "img/homePage.jpg",
+            "desc": "Turn all of the images and text on a website to kittens! I made this after watching Daniel Shiffman Ex-Kitten-sion chrome extension video and his bookmarklet video. To use, drag the image into your bookmark bar, then go to whatever website you want and click the bookmark! Sadly, after you refresh the page it will go back to normal.",
+            "date": "November 16, 2017",
+            "language": "Javascript",
+            "codeLink": "kitten"
+        },
+
+        {
             "name": "Home Page",
             "link": "https://goel25.github.io/homePage/",
             "imgPath": "img/homePage.jpg",

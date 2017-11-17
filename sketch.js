@@ -3,6 +3,7 @@ let projects;
 let projectsContainer;
 let maxHeight = 1;
 let id = 0;
+let kittenCode = "javascript:(function(){let srcs=['https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-29-57b30ad229af3__605.jpg','https://www.petsworld.in/blog/wp-content/uploads/2015/09/Cat-makes-Smile.jpg','https://www.warrenphotographic.co.uk/photography/bigs/15707-Cute-fluffy-silver-tortoiseshell-kitten-white-background.jpg','https://i.pinimg.com/736x/b4/6b/07/b46b079df6f47c093f7c123e70776892--fluffy-kittens-cute-kitten-fluffy.jpg','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpjYKnbQu-at9y18z9Tu48R-TnQ_3DFpSTMQlxaZST26faIwIPlQ'];let types=['p','h1','span','button','li'];let imgs=document.getElementsByTagName('img');for(let i=0;i<imgs.length;i++){imgs[i].src=srcs[i%srcs.length]}for(type of types){let elts=document.getElementsByTagName(type);for(elt of elts){elt.innerHTML='MEOW!'}}})()";
 
 function setup() {
   noCanvas();
@@ -40,13 +41,27 @@ function createProject(project) {
 
   let titleH = createEle('h2', container, 'title');
   let titleA = createEle('a', titleH, 'none', project.name);
-  titleA.attribute("href", project.link);
+  if (project.link == "kitten") {
+    titleA.attribute("href", kittenCode);
+  } else {
+    titleA.attribute("href", project.link);
+  }
 
   if (project.imgPath != "none") {
     let imgA = createEle('a', container, 'none');
-    imgA.attribute("href", project.link);
+
+    if (project.link == "kitten") {
+      imgA.attribute("href", kittenCode);
+    } else {
+      imgA.attribute("href", project.link);
+    }
+
     let img = createImg(project.imgPath, project.name + " img").addClass('img left');
     img.parent(imgA);
+
+    if (project.link == "kitten") {
+      img.attribute("alt", "Kittens!");
+    }
   }
 
 
@@ -61,7 +76,13 @@ function createProject(project) {
 
   let codeP = createEle('p', infoBox, 'none', "Code: ");
   let codeA = createEle('a', codeP, 'none', "Click here");
-  codeA.attribute("href", project.codeLink);
+
+
+  if (project.link == "kitten") {
+    codeA.attribute("href", kittenCode);
+  } else {
+    codeA.attribute("href", project.codeLink);
+  }
 
   let formatFix = createEle('div', container, 'formatFix');
 
