@@ -2,6 +2,16 @@
     "projects": [
 
         {
+            "name": "Coloring 2",
+            "link": "https://goel25.github.io/p5projects/Coloring2/",
+            "imgPath": "img/coloring2.jpg",
+            "desc": "For my 1 year programming anniversary, I remade my first p5.js project, but much better this time, using arrays, better input, math, loops, logic, and beginShape and endShape. In this version, you can change stroke thickness, undo lines, change color, and erase the entire drawing.",
+            "date": "Dec 3, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Coloring2"
+        },
+
+        {
             "name": "Kittenator",
             "link": "kitten",
             "imgPath": "img/kittenator.jpg",
