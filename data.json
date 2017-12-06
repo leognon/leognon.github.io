@@ -22,6 +22,16 @@
         },
 
         {
+            "name": "Bubbles and Guts",
+            "link": "https://goel25.github.io/processingProjects/bubblesAndGuts/",
+            "imgPath": "img/bubblesAndGuts.jpg",
+            "desc": "I made this game for the 25th Weekly Hour Game Jam. The theme was life after death. You start out small, and you become what eats you, so you can stay as a lower level shape and eat smaller things for less points, or level up quickly and eat bigger shapes, but eventually you'll run out and have nothing to eat.",
+            "date": "August 11, 2017",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/bubblesAndGuts"
+        },
+
+        {
             "name": "Word Finder",
             "link": "https://goel25.github.io/p5projects/Word%20Finder",
             "imgPath": "img/wordFinder.jpg",
