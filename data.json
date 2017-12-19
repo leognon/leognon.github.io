@@ -71,6 +71,17 @@
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/ELA_SharkTankGame"
         },
+
+        {
+            "name": "Shape Shooter",
+            "link": "https://goel25.github.io/processingProjects/shapeShooter/",
+            "imgPath": "img/shapeShooter.jpg",
+            "desc": "This is one of my proudest games, Shaper Shooter. I spent about 3 weeks working on it and added as many powerups and enemies as I could, and I'm very happy with how it turned out.",
+            "date": "May 7, 2017",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/shapeShooter"
+        },
+
         {
             "name": "Pixelvasion",
             "link": "https://Goel25.github.io/p5projects/Pixelvasion",
