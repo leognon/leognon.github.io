@@ -52,6 +52,16 @@
         },
 
         {
+            "name": "Snake Game",
+            "link": "https://goel25.github.io/processingProjects/snakeGame/",
+            "imgPath": "img/snakeGame.jpg",
+            "desc": "The classic snake game. I made this in about 40 minutes for a speed coding youtube video (https://youtu.be/VsWNhSDneGk). Use",
+            "date": "June 13, 2017",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/snakeGame"
+        },
+
+        {
             "name": "Space Escape",
             "link": "https://goel25.github.io/p5projects/Space%20Escape/",
             "imgPath": "img/spaceEscape.jpg",
