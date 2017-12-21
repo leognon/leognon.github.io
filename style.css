@@ -17,6 +17,15 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.link {
+    color: rgb(22, 73, 156) !important;
+}
+
+.link:hover {
+    color: rgb(42, 93, 176);
+    text-decoration: underline;
+}
+
 a {
     color: black;
     text-decoration: none;
