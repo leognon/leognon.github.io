@@ -62,6 +62,16 @@
         },
 
         {
+            "name": "Stay On The Road",
+            "link": "https://goel25.github.io/processingProjects/stayOnTheRoad/",
+            "imgPath": "img/StayOnTheRoad.jpg",
+            "desc": "This is a remake of the game stay on the road. I saw it and decided ot attempt a remake of it. I didn't work on it for long, so I only added 2 types of path. To play, keep your mouse on the grey for as long as possible.",
+            "date": "June 11, 2017",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/stayOnTheRoad"
+        },
+
+        {
             "name": "Space Escape",
             "link": "https://goel25.github.io/p5projects/Space%20Escape/",
             "imgPath": "img/spaceEscape.jpg",
