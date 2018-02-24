@@ -1,5 +1,7 @@
 {
-    "projects": [{
+    "projects": [
+
+        {
             "name": "Car Genetic Algorithm",
             "link": "https://goel25.github.io/p5projects/carGA/",
             "imgPath": "img/carGA.jpg",
@@ -117,6 +119,15 @@
             "date": "May 7, 2017",
             "language": "Java",
             "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/shapeShooter"
+        },
+        {
+            "name": "Unity Projects",
+            "link": "https://goel.itch.io/",
+            "imgPath": "https://img.itch.zone/aW1hZ2UvMTgyNTQ3Lzg1NDY1NS5wbmc=/315x250%23c/lsUHuS.png",
+            "desc": "This is a collection of a couple games I've made in Unity. You'll notice that most of these have graphics and collision detection, which is because I used an actual game engine. Most are made for game jams.",
+            "date": "May 18, 2017 - Oct 9, 2017",
+            "language": "Mostly C# (Unity)",
+            "codeLink": "/#"
         },
 
         {
