@@ -1,6 +1,13 @@
 {
-    "projects": [
-
+    "projects": [{
+            "name": "Car Genetic Algorithm",
+            "link": "https://goel25.github.io/p5projects/carGA/",
+            "imgPath": "img/carGA.jpg",
+            "desc": "My very first Genetic Algorithm! Largely inspired from the Daniel Shiffman's <a class='link' href='http://natureofcode.com/book/chapter-9-the-evolution-of-code/'>Smart Rockets example.</a> In my version, you can place multiple obstacles, create a custom path and save/load a simulation with the (hopefully) user friendly interface. It took 63 days to make this, an I'm very happy with the finished product!",
+            "date": "Dec 22, 2017",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/carGA"
+        },
         {
             "name": "Coloring 2",
             "link": "https://goel25.github.io/p5projects/Coloring2/",
