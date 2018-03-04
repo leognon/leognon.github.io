@@ -2,6 +2,16 @@
     "projects": [
 
         {
+            "name": "Langtons Ant",
+            "link": "https://goel25.github.io/p5projects/LangtonsAnt/",
+            "imgPath": "img/langtonsAnt.jpg",
+            "desc": "This is an example of a popular cellular automata, where there is an ant placed on a grid of white cells. Each frame, if the ant is on a white cell it turns right, changes the color of the cell and moves a step forward. If the ant is on a black cell, it turns left, changes the color of the cell and moves forward. In my version, you can add multiple ants by presseding A, and change the speed of the simulation by pressing S.",
+            "date": "Mar 3, 2018",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/LangtonsAnt"
+        },
+
+        {
             "name": "Car Genetic Algorithm",
             "link": "https://goel25.github.io/p5projects/carGA/",
             "imgPath": "img/carGA.jpg",
