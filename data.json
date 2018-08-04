@@ -1,5 +1,33 @@
 {
-    "projects": [
+    "projects": [{
+            "name": "Asteroids",
+            "link": "https://goel25.github.io/p5projects/Asteroids/",
+            "imgPath": "img/AsteroidsThumbnail.jpg",
+            "desc": "The classic Asteroids game, made in a couple of days for a <a class='link' href='https://www.youtube.com/watch?v=qb8EJ7u-b68'>a speed coding youtube video</a>. I'm happy with the result, and it is pretty fun to play",
+            "date": "May 16, 2018",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Asteroids"
+        },
+
+        {
+            "name": "Dog VS Cat classifier (UNFINISHED)",
+            "link": "https://goel25.github.io/p5projects/dogsVsCats/",
+            "imgPath": "img/dogVsCat.jpg",
+            "desc": "A classic neural network classifiation problem, the dogs and cats example. I really wanted to attempt this and try it, and see what it identifies my own cat as. As with the color predictor, there was a problem with the neural network, which caused a bit of trouble. Once that had been fixed, it can correctly identify a set of 10 dogs/cats after 100 generations. Although it is extremely overfit, this gives me hope that it is somewhat capable.",
+            "date": "May 16, 2018",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/dogsVsCats"
+        },
+
+        {
+            "name": "Color Predictor",
+            "link": "https://goel25.github.io/p5projects/colorPredictor/",
+            "imgPath": "img/ColorPredictor.jpg",
+            "desc": "For this project, I created a Neural Network which will determine if white text looks better against a background, or if black text looks better. It works well most of the time, except for a long time there was an issue with the Neural Network that I hadn't noticed, and that was ruining the results.",
+            "date": "April 28, 2018",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/colorPredictor"
+        },
 
         {
             "name": "Langtons Ant",
