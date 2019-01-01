@@ -1,5 +1,15 @@
 {
     "projects": [{
+            "name": "Flappy Bird AI",
+            "link": "https://goel25.github.io/processingProjects/flappyBirdAI%20(Java%20Web%20Version)/",
+            "imgPath": "img/flappyBirdAI.jpg",
+            "desc": "This is a combination of a neural network and genetic algorithm to beat flappy bird. This was made in a few days at a programming camp. I copied the NN and GA from my other Javascript projects, and translated them into Java. Overall it does pretty well, although other Flappy Bird AI's can do much  better. I'm not completely sure why they are (perhaps they use a much better NN, like tensorflow). This is my overall favorite project as it is the most impressive and combines all of my (Java) knowledge into a single project.",
+            "date": "~June 18, 2018",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/flappyBirdAI%20(Java%20Web%20Version)"
+        },
+
+        {
             "name": "Asteroids",
             "link": "https://goel25.github.io/p5projects/Asteroids/",
             "imgPath": "img/AsteroidsThumbnail.jpg",
