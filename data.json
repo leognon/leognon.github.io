@@ -20,7 +20,7 @@
         },
 
         {
-            "name": "Dog VS Cat classifier (UNFINISHED)",
+            "name": "Dog VS Cat classifier",
             "link": "https://goel25.github.io/p5projects/dogsVsCats/",
             "imgPath": "img/dogVsCat.jpg",
             "desc": "A classic neural network classifiation problem, the dogs and cats example. I really wanted to attempt this and try it, and see what it identifies my own cat as. As with the color predictor, there was a problem with the neural network, which caused a bit of trouble. Once that had been fixed, it can correctly identify a set of 10 dogs/cats after 100 generations. Although it is extremely overfit, this gives me hope that it is somewhat capable.",
