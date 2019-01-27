@@ -6,12 +6,14 @@ let id = 0;
 let kittenCode = "javascript:(function() { let srcs = ['https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-29-57b30ad229af3__605.jpg', 'https://www.petsworld.in/blog/wp-content/uploads/2015/09/Cat-makes-Smile.jpg', 'https://www.warrenphotographic.co.uk/photography/bigs/15707-Cute-fluffy-silver-tortoiseshell-kitten-white-background.jpg', 'https://i.pinimg.com/736x/b4/6b/07/b46b079df6f47c093f7c123e70776892--fluffy-kittens-cute-kitten-fluffy.jpg', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpjYKnbQu-at9y18z9Tu48R-TnQ_3DFpSTMQlxaZST26faIwIPlQ']; let types = ['p', 'h1', 'span', 'button', 'li']; let imgs = document.getElementsByTagName('img'); let word = prompt('Enter a sentence here', 'Kittens!'); for (let i = 0; i < imgs.length; i++) { imgs[i].src = srcs[i % srcs.length] } for (type of types) { let elts = document.getElementsByTagName(type); for (elt of elts) { elt.innerHTML = word; } } })()";
 let scrollAmount;
 let scrollInterval;
-let scrollSpeed = 20;
+let scrollSpeed;
 let offset = 0;
 let rdy = false;
-let itchio;
+let itchioCont;
 let itchioHeight = "3400px";
-
+let bioCont;
+let jsCont;
+let javaCont;
 
 function setup() {
   scrollAmount = document.getElementById("landingPage").offsetHeight;
@@ -19,41 +21,63 @@ function setup() {
 
   data = loadJSON("data.json", () => {
     ready = true;
+    loadProjs(data.javascriptProjects, jsCont);
+    loadProjs(data.javaProjects, javaCont);
   });
+
   projectsContainer = select(".projects-container");
-  itchio = select(".itchio");
+  itchioCont = select(".itchio").style("height", itchioHeight);
+  bioCont = select("#bioCont").style("height", windowHeight + "px");
+  jsCont = select("#jsCont");
+  javaCont = select("#javaCont");
+  setTimeout(() => {
+    bioCont.style("display", "block");
+  }, 100);
 }
 
 function javascript() {
-  projectsContainer.html("");
-  itchio.style("display", "none");
+  jsCont.style("display", "block");
+  itchioCont.style("display", "none");
+  bioCont.style("display", "none");
+  javaCont.style("display", "none");
+
   if (ready) {
-    loadProjs(data.javascriptProjects);
     startScroll();
   }
 }
 
+function bio() {
+  bioCont.style("display", "block");
+  javaCont.style("display", "none");
+  itchioCont.style("display", "none");
+  jsCont.style("display", "none");
+  startScroll();
+}
+
 function java() {
-  projectsContainer.html("");
-  itchio.style("display", "none");
+  javaCont.style("display", "block");
+  itchioCont.style("display", "none");
+  bioCont.style("display", "none");
+  jsCont.style("display", "none");
   if (ready) {
-    loadProjs(data.javaProjects);
     startScroll();
   }
 }
 
 function cSharp() {
-  projectsContainer.html("");
-  itchio.style("display", "block");
+  itchioCont.style("display", "block");
+  javaCont.style("display", "none");
+  bioCont.style("display", "none");
+  jsCont.style("display", "none");
   // let iframe = createEle('iframe', projectsContainer, "itchio");
   // iframe.attribute('src', 'http://x-frame-options-bypass.herokuapp.com/?url=https://goel.itch.io/'); //To bypass X-Frame Options
   // iframe.attribute('frameborder', '0');
   // iframe.attribute('onload', 'javascript:(function(o){console.log(document.getElementsByClassName("itchio").body.scrollHeight);}());');
-
   startScroll();
 }
 
 function startScroll() {
+  scrollSpeed = 30;
   clearInterval(scrollInterval);
   scrollInterval = setInterval(() => {
     if (window.scrollY < scrollAmount) {
@@ -62,17 +86,19 @@ function startScroll() {
       } else {
         window.scrollBy(0, scrollAmount - window.scrollY);
       }
-      if (scrollSpeed > 3) {
-        scrollSpeed -= .2;
+      if (scrollSpeed > 1 / .95) {
+        scrollSpeed *= .98;
       }
     } else {
       clearInterval(scrollInterval);
-      scrollSpeed = 20;
     }
   }, 1);
 }
 
 function draw() {
+  // if (frameCount == 3) {
+  //   window.scrollTo(0, 0);
+  // }
   background(225);
   beginShape();
   noFill();
@@ -88,14 +114,14 @@ function draw() {
   offset += 3;
 }
 
-function loadProjs(projs) {
+function loadProjs(projs, parent) {
   for (let i = 0; i < projs.length; i++) {
-    createProject(projs[i]);
+    createProject(projs[i], parent);
   }
 }
 
-function createProject(project) {
-  let container = createEle('div', projectsContainer, 'container');
+function createProject(project, parent) {
+  let container = createEle('div', parent, 'container');
   container.id(id);
 
   let titleH = createEle('h2', container, 'title');

@@ -32,8 +32,31 @@ hr {
     /*THE .itchio height HAS TO BE MANUALLY SET TO THE CORRENT WIDTH, OR YOU GET DOUBLE SCROLL BARS*/
 }
 
+.noselect {
+    cursor: text;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+}
+
+.langContainer {
+    display: none;
+    width: 100%;
+}
+
 .button:hover {
     background-color: rgb(97, 142, 184);
+    cursor: pointer;
 }
 
 .button:active {
@@ -41,7 +64,7 @@ hr {
 }
 
 .button {
-    border-radius: 100%;
+    border-radius: 1000%;
     zoom: 5;
     outline: none;
     background-color: rgb(107, 152, 194);
