@@ -35,6 +35,10 @@ function setup() {
   }, 100);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function javascript() {
   jsCont.style("display", "block");
   itchioCont.style("display", "none");
