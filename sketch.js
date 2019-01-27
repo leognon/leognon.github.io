@@ -9,8 +9,6 @@ let scrollInterval;
 let scrollSpeed;
 let offset = 0;
 let rdy = false;
-let itchioCont;
-let itchioHeight = "3400px";
 let bioCont;
 let jsCont;
 let javaCont;
@@ -26,7 +24,6 @@ function setup() {
   });
 
   projectsContainer = select(".projects-container");
-  itchioCont = select(".itchio").style("height", itchioHeight);
   bioCont = select("#bioCont");
   jsCont = select("#jsCont");
   javaCont = select("#javaCont");
@@ -43,7 +40,6 @@ function windowResized() {
 
 function javascript() {
   jsCont.style("display", "block");
-  itchioCont.style("display", "none");
   bioCont.style("display", "none");
   javaCont.style("display", "none");
 
@@ -55,27 +51,17 @@ function javascript() {
 function bio() {
   bioCont.style("display", "block");
   javaCont.style("display", "none");
-  itchioCont.style("display", "none");
   jsCont.style("display", "none");
   startScroll();
 }
 
 function java() {
   javaCont.style("display", "block");
-  itchioCont.style("display", "none");
   bioCont.style("display", "none");
   jsCont.style("display", "none");
   if (ready) {
     startScroll();
   }
-}
-
-function cSharp() {
-  itchioCont.style("display", "block");
-  javaCont.style("display", "none");
-  bioCont.style("display", "none");
-  jsCont.style("display", "none");
-  startScroll();
 }
 
 function startScroll() {
@@ -107,7 +93,8 @@ function draw() {
   stroke(0);
   strokeWeight(2);
   translate(0, height / 2 - 30);
-  for (let i = 0; i <= width; i += 60) {
+  let i;
+  for (i = 0; i < width + 50; i += 60) {
     let yPos = sin((i + offset) / 100);
     vertex(i, yPos * 100);
   }
