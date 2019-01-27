@@ -2,19 +2,38 @@
     clear: both;
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+canvas {
+    z-index: -100;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
 hr {
     display: block;
     height: 1px;
     border: 0;
-    width: 75%;
+    width: 100%;
     border-top: 3px solid black;
     padding: 0px;
 }
 
-p,
-h1,
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.button {
+    /* display: flex;
+    justify-content: center; */
+    border-radius: 100%;
+    zoom: 5;
+    /* align-self: center; */
+    background-color: rgb(107, 152, 194);
+    border-color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .link {
@@ -45,17 +64,17 @@ a:hover {
     left: 0;
     right: 0;
     /* min-width: 800px; */
-    background: rgb(220, 220, 220);
+    /* background: rgb(220, 220, 220); */
     float: left;
     text-align: center;
-    zoom: 0.7;
-    -moz-transform: scale(0.7);
+    /* zoom: 0.7; */
+    /* -moz-transform: scale(0.7); */
 }
 
 .container {
     border-radius: 15px;
     border: 2px solid black;
-    width: 600px;
+    width: 85%;
     height: auto;
     padding: 3px;
     display: inline-block;
@@ -63,39 +82,48 @@ a:hover {
     background-color: rgb(190, 190, 190);
 }
 
-.left {
+.leftDIV {
     float: left;
-}
-
-.right {
-    float: right;
+    height: auto;
+    width: auto;
 }
 
 .title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 250%;
     text-align: center;
     font-weight: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.rightContainer {
-    width: 297px;
-    float: right;
+.mainTitle {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 500%;
+    text-align: center;
+    font-weight: 1px;
 }
 
+
 .img {
-    border-radius: 4px;
-    padding-left: 3px;
-    width: 300px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 225px;
     height: auto;
 }
 
 .descBox {
     padding-left: 4px;
     padding-right: 2px;
-    width: 291px;
+    width: auto;
     /* THE WIDTH SHOULD ALWAYS BE .container width - .img width - .img padding - padding-left - padding right*/
     word-wrap: break-word;
+}
+
+.pTxt {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20pt;
 }
 
 .infoBox {

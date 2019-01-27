@@ -1,5 +1,5 @@
 {
-    "projects": [{
+    "javaProjects": [{
             "name": "Flappy Bird AI",
             "link": "https://goel25.github.io/processingProjects/flappyBirdAI%20(Java%20Web%20Version)/",
             "imgPath": "img/flappyBirdAI.jpg",
@@ -8,8 +8,62 @@
             "language": "Java",
             "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/flappyBirdAI%20(Java%20Web%20Version)"
         },
-
         {
+            "name": "Geometric Designs",
+            "link": "https://goel25.github.io/processingProjects/geometricDesigns/",
+            "imgPath": "img/geometricDesigns.jpg",
+            "desc": "This was just a quick project I made after watching a <a class='link' href='https://www.youtube.com/watch?v=LaarVR1AOvs'>youtube video about vintage computer art</a>. It uses a combination of sin and cos for the x and y points of a line, and creates a cool screen saver effect.",
+            "date": "October 14, 2017",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/geometricDesigns"
+        },
+        {
+            "name": "Bubbles and Guts",
+            "link": "https://goel25.github.io/processingProjects/bubblesAndGuts/",
+            "imgPath": "img/bubblesAndGuts.jpg",
+            "desc": "I made this game for the 25th Weekly Hour Game Jam. The theme was life after death. You start out small, and you become what eats you, so you can stay as a lower level shape and eat smaller things for less points, or level up quickly and eat bigger shapes, but eventually you'll run out and have nothing to eat.",
+            "date": "June 19, 2017",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/bubblesAndGuts"
+        },
+        {
+            "name": "Snake Game",
+            "link": "https://goel25.github.io/processingProjects/snakeGame/",
+            "imgPath": "img/snakeGame.jpg",
+            "desc": "The classic snake game. I made this in about 40 minutes for a <a class='link' href='https://youtu.be/VsWNhSDneGk'>speed coding youtube video</a>. Use the arrow keys to move, eat the red cherries to grow and don't run into your tail.",
+            "date": "June 13, 2017",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/snakeGame"
+        },
+        {
+            "name": "Stay On The Road",
+            "link": "https://goel25.github.io/processingProjects/stayOnTheRoad/",
+            "imgPath": "img/StayOnTheRoad.jpg",
+            "desc": "This is a remake of the game stay on the road. I saw it and decided ot attempt a remake of it. I didn't work on it for long, so I only added 2 types of path. To play, keep your mouse on the grey for as long as possible.",
+            "date": "June 11, 2017",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/stayOnTheRoad"
+        },
+        {
+            "name": "Shape Shooter",
+            "link": "https://goel25.github.io/processingProjects/shapeShooter/",
+            "imgPath": "img/shapeShooter.jpg",
+            "desc": "This is one of my proudest games, Shaper Shooter. I spent about 3 weeks working on it and added as many powerups and enemies as I could, and I'm very happy with how it turned out.",
+            "date": "May 7, 2017",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/shapeShooter"
+        },
+        {
+            "name": "Really old Java",
+            "link": "javascript:(function(){   alert('Sorry, but you cant run this project on the web. You will have to download and run them through command line.');   })()",
+            "imgPath": "img/oldJava.jpg",
+            "desc": "Before p5js, I watched the New Bostons java tutorials. I didn't completely understand what I was doing, but I still made some stuff.",
+            "date": "June 23, 2016",
+            "language": "Java",
+            "codeLink": "https://github.com/Goel25/oldProjects/tree/master/1st"
+        }
+    ],
+    "javascriptProjects": [{
             "name": "Asteroids",
             "link": "https://goel25.github.io/p5projects/Asteroids/",
             "imgPath": "img/AsteroidsThumbnail.jpg",
@@ -18,7 +72,6 @@
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Asteroids"
         },
-
         {
             "name": "Dog VS Cat classifier",
             "link": "https://goel25.github.io/p5projects/dogsVsCats/",
@@ -28,7 +81,6 @@
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/dogsVsCats"
         },
-
         {
             "name": "Color Predictor",
             "link": "https://goel25.github.io/p5projects/colorPredictor/",
@@ -38,7 +90,6 @@
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/colorPredictor"
         },
-
         {
             "name": "Langtons Ant",
             "link": "https://goel25.github.io/p5projects/LangtonsAnt/",
@@ -48,7 +99,6 @@
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/LangtonsAnt"
         },
-
         {
             "name": "Car Genetic Algorithm",
             "link": "https://goel25.github.io/p5projects/carGA/",
@@ -67,7 +117,6 @@
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Coloring2"
         },
-
         {
             "name": "Kittenator",
             "link": "kitten",
@@ -77,27 +126,15 @@
             "language": "Javascript",
             "codeLink": "kitten"
         },
-
-        {
-            "name": "Geometric Designs",
-            "link": "https://goel25.github.io/processingProjects/geometricDesigns/",
-            "imgPath": "img/geometricDesigns.jpg",
-            "desc": "This was just a quick project I made after watching a <a class='link' href='https://www.youtube.com/watch?v=LaarVR1AOvs'>youtube video about vintage computer art</a>. It uses a combination of sin and cos for the x and y points of a line, and creates a cool screen saver effect.",
-            "date": "October 14, 2017",
-            "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/geometricDesigns"
-        },
-
         {
             "name": "Home Page",
             "link": "https://goel25.github.io/homePage/",
             "imgPath": "img/homePage.jpg",
-            "desc": "INCEPTION! I made this to organize all of my projects, and have a way to access them when I'm not locally on my computer.",
+            "desc": "I made this to organize all of my projects, and have a way to access them when I'm not locally on my computer.",
             "date": "October 14, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/goel25/homePage"
         },
-
         {
             "name": "Word Finder",
             "link": "https://goel25.github.io/p5projects/Word%20Finder",
@@ -107,37 +144,6 @@
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Word%20Finder"
         },
-
-        {
-            "name": "Bubbles and Guts",
-            "link": "https://goel25.github.io/processingProjects/bubblesAndGuts/",
-            "imgPath": "img/bubblesAndGuts.jpg",
-            "desc": "I made this game for the 25th Weekly Hour Game Jam. The theme was life after death. You start out small, and you become what eats you, so you can stay as a lower level shape and eat smaller things for less points, or level up quickly and eat bigger shapes, but eventually you'll run out and have nothing to eat.",
-            "date": "June 19, 2017",
-            "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/bubblesAndGuts"
-        },
-
-        {
-            "name": "Snake Game",
-            "link": "https://goel25.github.io/processingProjects/snakeGame/",
-            "imgPath": "img/snakeGame.jpg",
-            "desc": "The classic snake game. I made this in about 40 minutes for a <a class='link' href='https://youtu.be/VsWNhSDneGk'>speed coding youtube video</a>. Use the arrow keys to move, eat the red cherries to grow and don't run into your tail.",
-            "date": "June 13, 2017",
-            "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/snakeGame"
-        },
-
-        {
-            "name": "Stay On The Road",
-            "link": "https://goel25.github.io/processingProjects/stayOnTheRoad/",
-            "imgPath": "img/StayOnTheRoad.jpg",
-            "desc": "This is a remake of the game stay on the road. I saw it and decided ot attempt a remake of it. I didn't work on it for long, so I only added 2 types of path. To play, keep your mouse on the grey for as long as possible.",
-            "date": "June 11, 2017",
-            "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/stayOnTheRoad"
-        },
-
         {
             "name": "Space Escape",
             "link": "https://goel25.github.io/p5projects/Space%20Escape/",
@@ -147,8 +153,6 @@
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Space%20Escape"
         },
-
-
         {
             "name": "Wrote on Piece of paper",
             "link": "https://Goel25.github.io/p5projects/ELA_SharkTankGame",
@@ -157,16 +161,6 @@
             "date": "May 29, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/ELA_SharkTankGame"
-        },
-
-        {
-            "name": "Shape Shooter",
-            "link": "https://goel25.github.io/processingProjects/shapeShooter/",
-            "imgPath": "img/shapeShooter.jpg",
-            "desc": "This is one of my proudest games, Shaper Shooter. I spent about 3 weeks working on it and added as many powerups and enemies as I could, and I'm very happy with how it turned out.",
-            "date": "May 7, 2017",
-            "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/shapeShooter"
         },
         {
             "name": "Unity Projects",
@@ -177,7 +171,6 @@
             "language": "Mostly C# (Unity)",
             "codeLink": "/#"
         },
-
         {
             "name": "Pixelvasion",
             "link": "https://Goel25.github.io/p5projects/Pixelvasion",
@@ -241,7 +234,6 @@
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/ShapesGame"
         },
-
         {
             "name": "Coloring",
             "link": "https://goel25.github.io/p5projects/Coloring%20-%20My%20first%20project%20(Dec%203,%202016)/",
@@ -251,26 +243,14 @@
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Coloring%20-%20My%20first%20project%20(Dec%203%2C%202016)"
         },
-
-        {
-            "name": "Really old Java",
-            "link": "javascript:(function(){   alert('Sorry, but you cant run this project on the web. You will have to download and run them through command line.');   })()",
-            "imgPath": "img/oldJava.jpg",
-            "desc": "Before p5js, I watched the New Bostons java tutorials. I didn't completely understand what I was doing, but I still made some stuff.",
-            "date": "June 23, 2016",
-            "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/oldProjects/tree/master/1st"
-        },
-
         {
             "name": "Minecraft Skript",
             "link": "javascript:(function(){   alert('Sorry, but you cant run this project on the web.');   })()",
-            "imgPath": "none",
+            "imgPath": "img/grassBlock.png",
             "desc": "When I had my Minecraft server, since I didn't know Java, I used a plugin called Skript to program. It's a lot like python and helped me learn the very basics of programming.",
             "date": "~Jan 18, 2016",
-            "language": "Javascript",
+            "language": "Minecraft Skript Plugin",
             "codeLink": "https://github.com/Goel25/oldProjects/tree/master/scripts"
         }
-
     ]
 }

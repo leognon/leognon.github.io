@@ -4,34 +4,61 @@ let projectsContainer;
 let maxHeight = 1;
 let id = 0;
 let kittenCode = "javascript:(function() { let srcs = ['https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-29-57b30ad229af3__605.jpg', 'https://www.petsworld.in/blog/wp-content/uploads/2015/09/Cat-makes-Smile.jpg', 'https://www.warrenphotographic.co.uk/photography/bigs/15707-Cute-fluffy-silver-tortoiseshell-kitten-white-background.jpg', 'https://i.pinimg.com/736x/b4/6b/07/b46b079df6f47c093f7c123e70776892--fluffy-kittens-cute-kitten-fluffy.jpg', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpjYKnbQu-at9y18z9Tu48R-TnQ_3DFpSTMQlxaZST26faIwIPlQ']; let types = ['p', 'h1', 'span', 'button', 'li']; let imgs = document.getElementsByTagName('img'); let word = prompt('Enter a sentence here', 'Kittens!'); for (let i = 0; i < imgs.length; i++) { imgs[i].src = srcs[i % srcs.length] } for (type of types) { let elts = document.getElementsByTagName(type); for (elt of elts) { elt.innerHTML = word; } } })()";
+let scrollAmount;
+let scrollInterval;
+let scrollSpeed = 15;
+
 
 function setup() {
-  noCanvas();
+  scrollAmount = document.getElementById("landingPage").offsetHeight;
+  let cnvContainer = select("#cnvContainer");
+  createCanvas(windowWidth, windowHeight).position(0, 0);
+  // background();
+  frameRate(3);
+
+
   data = loadJSON("data.json", loaded);
   projectsContainer = select(".projects-container");
 }
 
+function javascript() {
+  startScroll();
+}
+
+function java() {
+  startScroll();
+}
+
+function cSharp() {
+  startScroll();
+}
+
+function startScroll() {
+  scrollInterval = setInterval(() => {
+    if (window.scrollY < scrollAmount) {
+      if (window.scrollY + scrollSpeed <= scrollAmount) {
+        window.scrollBy(0, scrollSpeed);
+      } else {
+        window.scrollBy(0, scrollAmount - window.scrollY);
+      }
+      scrollSpeed -= .2;
+    } else {
+      clearInterval(scrollInterval);
+      scrollSpeed = 15;
+    }
+  }, .001);
+}
+
+function draw() {
+  noStroke();
+  fill(random(255), random(255), random(255));
+  rect(random(width), random(height), 50, 50);
+}
+
 function loaded() {
-  let projects = data.projects;
-  for (let i = 0; i < data.projects.length; i++) {
+  let projects = data.javascriptProjects;
+  for (let i = 0; i < projects.length; i++) {
     createProject(projects[i]);
-  }
-
-  let allContainers = document.getElementsByClassName("container");
-
-  for (let j = 0; j < allContainers.length; j++) {
-    let container = allContainers[j];
-
-    container.style.height = maxHeight + "px";
-
-    let title = container.getElementsByClassName("title")[0];
-    let desc = container.getElementsByClassName("descBox")[0];
-
-
-    let infoBox = container.getElementsByClassName("infoBox")[0];
-    let paddingTop = container.offsetHeight - (title.offsetHeight + desc.offsetHeight + infoBox.offsetHeight + 45);
-    console.log(maxHeight);
-    infoBox.style.cssText = "padding-top: " + paddingTop + "px";
   }
 }
 
@@ -47,8 +74,9 @@ function createProject(project) {
     titleA.attribute("href", project.link);
   }
 
+  let leftDIV = createEle('div', container, 'leftDIV');
   if (project.imgPath != "none") {
-    let imgA = createEle('a', container, 'none');
+    let imgA = createEle('a', leftDIV, 'none');
 
     if (project.link == "kitten") {
       imgA.attribute("href", kittenCode);
@@ -64,17 +92,17 @@ function createProject(project) {
     }
   }
 
+  let rightDIV = createEle('div', container, 'rightDIV');
+  let rightContainer = createEle('div', rightDIV, 'rightContainer');
 
-  let rightContainer = createEle('div', container, 'rightContainer');
-
-  let descBox = createEle('p', rightContainer, 'descBox right', project.desc);
+  let descBox = createEle('p', rightContainer, 'descBox right pTxt', project.desc);
 
   let infoBox = createEle('div', rightContainer, 'infoBox');
 
-  let dateP = createEle('p', infoBox, 'none', "Date: " + project.date);
-  let languageP = createEle('p', infoBox, 'none', "Language: " + project.language);
+  let dateP = createEle('p', infoBox, 'pTxt', "Date: " + project.date);
+  let languageP = createEle('p', infoBox, 'pTxt', "Language: " + project.language);
 
-  let codeP = createEle('p', infoBox, 'none', "Code: ");
+  let codeP = createEle('p', infoBox, 'pTxt', "Code: ");
   let codeA = createEle('a', codeP, 'none', "Click here");
 
 
@@ -85,13 +113,6 @@ function createProject(project) {
   }
 
   let formatFix = createEle('div', container, 'formatFix');
-
-  let thisHeight = document.getElementById(id).offsetHeight;
-
-  if (thisHeight > maxHeight) {
-    maxHeight = thisHeight;
-    console.log("New leader is " + id + "   at " + thisHeight);
-  }
   id++;
 }
 
