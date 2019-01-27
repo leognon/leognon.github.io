@@ -63,6 +63,18 @@ hr {
     background-color: rgb(77, 122, 164);
 }
 
+footer {
+    background: black;
+}
+
+.footerText {
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .button {
     border-radius: 1000%;
     zoom: 5;

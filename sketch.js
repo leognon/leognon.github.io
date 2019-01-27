@@ -27,11 +27,13 @@ function setup() {
 
   projectsContainer = select(".projects-container");
   itchioCont = select(".itchio").style("height", itchioHeight);
-  bioCont = select("#bioCont").style("height", windowHeight + "px");
+  bioCont = select("#bioCont");
   jsCont = select("#jsCont");
   javaCont = select("#javaCont");
   setTimeout(() => {
-    bioCont.style("display", "block");
+    let footer = select("footer");
+    footer.style("display", "block");
+    bioCont.style("display", "block").style("height", (windowHeight - document.getElementsByTagName("footer")[0].offsetHeight) + "px");
   }, 100);
 }
 
@@ -73,10 +75,6 @@ function cSharp() {
   javaCont.style("display", "none");
   bioCont.style("display", "none");
   jsCont.style("display", "none");
-  // let iframe = createEle('iframe', projectsContainer, "itchio");
-  // iframe.attribute('src', 'http://x-frame-options-bypass.herokuapp.com/?url=https://goel.itch.io/'); //To bypass X-Frame Options
-  // iframe.attribute('frameborder', '0');
-  // iframe.attribute('onload', 'javascript:(function(o){console.log(document.getElementsByClassName("itchio").body.scrollHeight);}());');
   startScroll();
 }
 
@@ -109,7 +107,7 @@ function draw() {
   stroke(0);
   strokeWeight(2);
   translate(0, height / 2 - 30);
-  for (let i = 0; i < width; i += 3) {
+  for (let i = 0; i <= width; i += 60) {
     let yPos = sin((i + offset) / 100);
     vertex(i, yPos * 100);
   }
