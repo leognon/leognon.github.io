@@ -28,9 +28,17 @@ function setup() {
   jsCont = select("#jsCont");
   javaCont = select("#javaCont");
   setTimeout(() => {
+    bioCont.style("display", "block")
     let footer = select("footer");
+    let theBioCont = select("#theBioContainer");
     footer.style("display", "block");
-    bioCont.style("display", "block").style("height", (windowHeight - document.getElementsByTagName("footer")[0].offsetHeight) + "px");
+    if (theBioCont.height < windowHeight - document.getElementsByTagName("footer")[0].offsetHeight) {
+      console.log("smaller");
+      bioCont.style("height", (windowHeight - document.getElementsByTagName("footer")[0].offsetHeight) + "px");
+    } else {
+      console.log(theBioCont);
+      bioCont.style("height", (theBioCont.height + document.getElementsByTagName("footer")[0].offsetHeight + 10) + "px");
+    }
   }, 100);
 }
 
@@ -84,9 +92,6 @@ function startScroll() {
 }
 
 function draw() {
-  // if (frameCount == 3) {
-  //   window.scrollTo(0, 0);
-  // }
   background(225);
   beginShape();
   noFill();
