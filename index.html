@@ -10,6 +10,11 @@
   <script src="addons/p5.dom.min.js"></script>
   <!-- <script src="addons/p5.sound.min.js"></script> -->
   <script src="sketch.js"></script>
+  <script>
+    function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+  </script>
 
   <title>Leo Gagnons Programming</title>
 </head>
@@ -18,9 +23,9 @@
   <div id="landingPage" style="width:100%; height:100%;">
     <h1 class="mainTitle" style="margin: 0px; padding-top: 10%">programming&nbsp&nbspprojects</h1>
     <div id="block" style="height: 15%;"> </div>
-    <div id="buttonContainer" style="align-content: center;">
+    <div id="buttonContainer" style="text-align: center;">
       <div>
-        <button style="margin-right: 15px;" class="button" onclick="javascript()">js</button>
+        <button style="margin-right: 15px; " class="button" onclick="javascript()">js</button>
         <button style="margin-right: 15px;" class="button" onclick="java()">java</button>
         <button class="button" onclick="cSharp()">C#</button>
       </div>
@@ -30,11 +35,7 @@
       O&nbsp&nbsp&nbspG A G N O N</h1>
   </div>
 
-  <!-- <div>
-    <h1 style="text-align: center;  margin: 10px; font-family: 'Open Sans', sans-serif;">Leo Gagnon's Programming</h1>
-    <hr />
-  </div> -->
-
+  <iframe style="display: none" frameborder="0" class="itchio" src="http://x-frame-options-bypass.herokuapp.com/?url=https://goel.itch.io/"'></iframe>
   <div class="projects-container">
     <!-- <div class="container" id="0">
       <h2 class="title"><a class="none" href="LINK TO PLAY">FlappyBird AI</a></h2>
@@ -45,22 +46,19 @@
         <div class="rightContainer">
           <p class="descBox">This is a combination of a neural network and genetic algorithm to beat flappy bird.
             This was made in a few days at a programming camp. I copied the NN and GA from my other Javascript
-            projects, and translated them into Java. Overall it does pretty well, although other Flappy Bird AI's can
-            do much better. I'm not completely sure why they are (perhaps they use a much better NN, like
-            tensorflow).
-            This is
-            my overall favorite project as it is the most impressive and combines all of my (Java) knowledge into a
-            single project.</p>
-          <div class="infoBox">
-            <p class="none">Date: ~June 18, 2018</p>
-            <p class="none">Language: Java</p>
-            <p class="none">Code: <a class="none" href="LINK TO CODE">Click here</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="formatFix"></div>
+            projects, and translated them into Java. Overall it does pretty well, although other Flappy Bird AI'
+    s can do much better. I'm not completely sure why they are (perhaps they use a much better NN, like tensorflow).
+    This is my overall favorite project as it is the most impressive and combines all of my (Java) knowledge into a
+    single project.</p> <div class="infoBox">
+    <p class="none">Date: ~June 18, 2018</p>
+    <p class="none">Language: Java</p>
+    <p class="none">Code: <a class="none" href="LINK TO CODE">Click here</a></p>
+    </div>
+    </div>
+    </div>
+    <div class="formatFix"></div>
     </div> -->
-  </div>
+    </div>
 </body>
 
 </html>
