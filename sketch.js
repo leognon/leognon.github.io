@@ -33,10 +33,8 @@ function setup() {
     let theBioCont = select("#theBioContainer");
     footer.style("display", "block");
     if (theBioCont.height < windowHeight - document.getElementsByTagName("footer")[0].offsetHeight) {
-      console.log("smaller");
       bioCont.style("height", (windowHeight - document.getElementsByTagName("footer")[0].offsetHeight) + "px");
     } else {
-      console.log(theBioCont);
       bioCont.style("height", (theBioCont.height + document.getElementsByTagName("footer")[0].offsetHeight + 10) + "px");
     }
   }, 100);
