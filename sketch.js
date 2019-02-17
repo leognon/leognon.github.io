@@ -12,7 +12,6 @@ let javaCont;
 let scrollAmount;
 let scrollInterval;
 let scrollPercent = .025;
-// let scrollSpeed;
 
 function setup() {
   scrollAmount = document.getElementById("landingPage").offsetHeight;
@@ -72,10 +71,8 @@ function java() {
 }
 
 function startScroll() {
-  // scrollSpeed = 30;
   clearInterval(scrollInterval);
   scrollInterval = setInterval(() => {
-    // console.log(height - window.scrollY);
     let amt = scrollPercent * (height - window.scrollY);
     if (height - window.scrollY > 5) {
       window.scrollBy(0, max(1, amt));
@@ -83,25 +80,7 @@ function startScroll() {
       window.scrollBy(0, height - window.scrollY);
       clearInterval(scrollInterval);
     }
-    // if (window.scrollY > scrollAmount) {
   }, 1);
-
-
-
-  // scrollInterval = setInterval(() => {
-  //   if (window.scrollY < scrollAmount) {
-  //     if (window.scrollY + scrollSpeed <= scrollAmount) {
-  //       window.scrollBy(0, scrollSpeed);
-  //     } else {
-  //       window.scrollBy(0, scrollAmount - window.scrollY);
-  //     }
-  //     if (scrollSpeed > 1 / .95) {
-  //       scrollSpeed *= .98;
-  //     }
-  //   } else {
-  //     clearInterval(scrollInterval);
-  //   }
-  // }, 1);
 }
 
 function draw() {
