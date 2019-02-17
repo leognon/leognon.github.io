@@ -3,72 +3,100 @@
 
 <head>
   <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-  <style>
-    .container {
-      border: 2px solid rgb(36, 34, 145);
-      width: 600px;
-      height: auto;
-      padding: 3px;
-      float: left;
-    }
 
-    .left {
-      float: left;
-    }
-
-    .right {
-      float: left;
-    }
-
-    .img {
-      padding-left: 3px;
-      width: 300px;
-      height: 169px;
-    }
-
-    .descBox {
-      padding-left: 4px;
-      padding-right: 2px;
-      width: 291px;
-      /* THE WIDTH SHOULD ALWAYS BE .container width - .img width - .img padding - padding-left - padding right*/
-      word-wrap: break-word;
-    }
-
-    .infoBox {
-      float: right;
-      padding-right: 10px;
-      line-height: 4px;
-    }
-
-    .title {
-      text-align: center;
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300" rel="stylesheet">
   <script src="addons/p5.min.js"></script>
   <script src="addons/p5.dom.min.js"></script>
-  <script src="addons/p5.sound.min.js"></script>
+
+  <link rel='icon' href='img/favicon.jpg' type='image/x-icon' />
+  <!-- <script src="addons/p5.sound.min.js"></script> -->
   <script src="sketch.js"></script>
+  <!-- <script>
+    function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+  </script> -->
+
+  <title>Leo Gagnons Programming</title>
 </head>
 
 <body>
-
-  <div class="container">
-    <h1 class="title">ShapesGame+</h1>
-    <img class="img left" src="img/shapesGame+Img.jpg" alt="ShapesGame+ Img" />
-
-    <p class="descBox right">
-      Shapes Game is a fun game you can play. You eat circles, and avoid squares.
-    </p>
-    <div class="infoBox">
-      <p>Date: 10/10/10</p>
-      <p>Code: www.codeishere.com</p>
+  <div id="landingPage" style="width:100%; height:100%;">
+    <h1 class="mainTitle noselect" style="margin: 0px; padding-top: 3%">programming&nbsp&nbspprojects</h1>
+    <div id="block" style="height: 5%;"> </div>
+    <div id="buttonContainer" style="text-align: center;">
+      <div>
+        <button style="margin-right: 15px; " class="button" onclick="javascript()">js</button>
+        <button style="margin-right: 15px;" class="button" onclick="java()">java</button>
+        <a href="https://goel.itch.io"><button style="margin-right: 15px;" class="button">C#</button></a>
+        <button style="background-color: rgb(102, 240, 146)" class="button" onclick="bio()">bio</button>
+      </div>
     </div>
+    <div id=" block" style="height: 4%;"> </div>
+    <h1 class="noselect" style="font-size: 350%; text-align: center; font-family: 'Open Sans Condensed', sans-serif;">L
+      E O&nbsp&nbsp&nbspG A G N O N</h1>
   </div>
 
 
+  <div class="projects-container">
+    <div id="bioCont" class="langContainer" style="display: none;">
+      <div class="container" id="theBioContainer">
+        <h2 class="title">About Me</h2>
+        <div class="leftDIV" style="padding-right: 10px; padding-bottom: 10px;">
+          <img src="img/bioPic.png" alt="Picture" class="img left"></img>
+        </div>
+        <div class="rightDIV">
+          <div class="rightContainer">
+            <p class="descBox" style="text-align: left; font-size: 20px; font-family: 'Dosis', sans-serif;">
+              My programming journey began with my fascination of Minecraft. I became obsessed first with building, but once I discovered the the game had its own built in programming system, I became hooked on coding. I bought a Minecraft server and programmed in a custom scripting language called Skript, which was a lot like Python. Since Minecraft was written in Java, I couldn't wait to learn the language. Over the summer, I watched TheNewBostons Java tutorials, and learned basic Java.
+              <br /><br />
+              During the next few months I started to become frustrated with my progress, since I did not know how to make exciting programs, until I found The Coding Train's p5.js tutorials by Daniel Shiffman. Not only was Daniel Shiffman educational, he was also fun! I proceeded to binge watch The Coding Train’s entire series in a couple of weeks. Daniel Shiffman's love for programming was infectious, as I was now able to create much more interesting, visual games. After concentrating on javascript for a while, I decided to go back to Java, but this time I used the processing library, which is the Java version of p5.js.
+              <br /><br />
+              During Spring Break 2018, my parents surprised me by taking me to New York to meet Daniel Shiffman. As a professor at NYU, he gave me a tour of the technology department, including his YouTube studio where I have enjoyed watching and learning his tutorials. With a clear passion for coding, this was an incredible experience, to put it lightly.
+              <br /><br />
+              I wanted to make more complex games, with an actual game engine, so I watched Brackey's tutorials to learn C#, along with Unity. I participated in multiple game jams on itch.io, which were all awesome experiences. I went back to Javascript, and created a Genetic Algorithm, and eventually a Neural Network, which I would translate into Java to teach my computer to play flappy bird.
+              <br /><br />
+              Today, I am focused on learning Python since it is one of the most powerful languages for Machine Learning. With certainty, I plan to optimize my high school years learning as much coding and math as possible before entering college as a Computer Science major. Equally, I like sharing my games, programs, coding, resources, and knowledge that helps others learn and enjoy the world of coding. I expect to enjoy a long and productive career in the field of coding and technology. Now let's just see what I create next!
+            </p>
+            <div class="infoBox">
+              <p class="none">Date: Feb 25, 2004</p>
+              <p class="none">Language: English</p>
+              <p class="none">Code: <a class="none" href="https://github.com/Goel25">Click here</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="formatFix"></div>
+      </div>
+    </div>
 
+    <div id="jsCont" class="langContainer"></div>
+    <div id="javaCont" class="langContainer"></div>
+    <!-- <iframe style="display:none;" class="itchio" frameborder="0" is="x-frame-bypass" src="https://goel.itch.io/"></iframe> -->
+    <!-- <iframe style="display: none;" frameborder="0" class="itchio" src="http://x-frame-options-bypass.herokuapp.com/?url=https://goel.itch.io/"'></iframe> -->
+
+    <footer style="display: none;">
+      <p class="footerText">Contact: leognon@gmail.com&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCopyright @ Just kidding, theres no copyright</p>
+    </footer>
+  </div>
 </body>
 
 </html>
+<!-- <div class="container" id="0">
+      <h2 class="title"><a class="none" href="LINK TO PLAY">FlappyBird AI</a></h2>
+      <div class="leftDIV">
+        <a class="none" href="LINK TO PLAY"><img src="img/flappyBirdAI.jpg" alt="Flappy Bird AI img" class="img left"></img></a>
+      </div>
+      <div class="rightDIV">
+        <div class="rightContainer">
+          <p class="descBox">This is a combination of a neural network and genetic algorithm to beat flappy bird.
+            This was made in a few days at a programming camp. I copied the NN and GA from my other Javascript
+            projects, and translated them into Java. Overall it does pretty well, although other Flappy Bird AI' s can do much better. I'm not completely sure why they are (perhaps they use a much better NN, like tensorflow). This is my overall favorite project as it is the most impressive and combines all of my (Java) knowledge into a single project.</p> <div class="infoBox">
+      <p class="none">Date: ~June 18, 2018</p>
+      <p class="none">Language: Java</p>
+      <p class="none">Code: <a class="none" href="LINK TO CODE">Click here</a></p>
+  </div>
+  </div>
+  </div>
+  <div class="formatFix"></div>
+  </div> -->
