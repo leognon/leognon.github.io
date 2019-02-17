@@ -128,12 +128,12 @@
         },
         {
             "name": "Home Page",
-            "link": "https://goel25.github.io/homePage/",
+            "link": "https://goel25.github.io/",
             "imgPath": "img/homePage.jpg",
             "desc": "I made this to organize all of my projects, and have a way to access them when I'm not locally on my computer.",
             "date": "October 14, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/goel25/homePage"
+            "codeLink": "https://github.com/goel25/goel25.github.io"
         },
         {
             "name": "Word Finder",
