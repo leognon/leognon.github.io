@@ -64,6 +64,14 @@
         }
     ],
     "javascriptProjects": [{
+            "name": "Mario Pong",
+            "link": "https://mario-pong.herokuapp.com/",
+            "imgPath": "img/MarioPongThumbnail.jpg",
+            "desc": "An online multiplayer game of pong, except with elements of Mario! I spent ~2 months and an estimated 50 hours working on this, and I'm very proud of the result. It has 2,000 lines of code, including the Server (written in Node), and the client (using p5.js)",
+            "date": "June 11, 2019",
+            "language": "Javascript (Node)",
+            "codeLink": "/#"
+        }, {
             "name": "Asteroids",
             "link": "https://goel25.github.io/p5projects/Asteroids/",
             "imgPath": "img/AsteroidsThumbnail.jpg",
@@ -161,15 +169,6 @@
             "date": "May 29, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/ELA_SharkTankGame"
-        },
-        {
-            "name": "Unity Projects",
-            "link": "https://goel.itch.io/",
-            "imgPath": "https://img.itch.zone/aW1hZ2UvMTgyNTQ3Lzg1NDY1NS5wbmc=/315x250%23c/lsUHuS.png",
-            "desc": "This is a collection of a couple games I've made in Unity. You'll notice that most of these have graphics and collision detection, which is because I used an actual game engine. Most are made for game jams.",
-            "date": "May 18, 2017 - Oct 9, 2017",
-            "language": "Mostly C# (Unity)",
-            "codeLink": "/#"
         },
         {
             "name": "Pixelvasion",
