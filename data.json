@@ -64,6 +64,14 @@
         }
     ],
     "javascriptProjects": [{
+            "name": "Shapes Game 3",
+            "link": "https://shapesgame.herokuapp.com/",
+            "imgPath": "img/shapesGame3.jpg",
+            "desc": "Another online multiplayer game, except games can contain more than 2 players. It's very similar to agar.io, but has some added features like layers, sqaures and shooting. Overall I'm mostly happy with the result, although there are some issues with lag and I spent more time than I would have liked on it.",
+            "date": "Dec 3, 2019",
+            "language": "Javascript (Node)",
+            "codeLink": "https://github.com/Goel25/ShapesGame3"
+        }, {
             "name": "Mario Pong",
             "link": "https://mario-pong.herokuapp.com/",
             "imgPath": "img/MarioPongThumbnail.jpg",
