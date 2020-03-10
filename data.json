@@ -64,6 +64,14 @@
         }
     ],
     "javascriptProjects": [{
+            "name": "NEAT Steering",
+            "link": "https://goel25.github.io/CarsNEAT/",
+            "imgPath": "img/NEATSteering.jpg",
+            "desc": "An implementation of the <a class='link' href='http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf'>Neuro Evolution of Augmenting Topologies</a>, or NEAT. I combined it with a car steering simulation that teaches cars to drive around a track. Overall, I spent far too much time on this project, and had to remove Speciation from my implementation because it would not learn with it.",
+            "date": "March 2, 2020",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/CarsNEAT"
+        }, {
             "name": "Shapes Game 3",
             "link": "https://shapesgame.herokuapp.com/",
             "imgPath": "img/shapesGame3.jpg",
