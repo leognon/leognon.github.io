@@ -208,7 +208,7 @@
             "name": "Pong+",
             "link": "https://Goel25.github.io/p5projects/Pong+",
             "imgPath": "img/Pong+.jpg",
-            "desc": "Pong+ is a  2 player game where one is shooting the pong balls, and the other has to avoid them. You when the other player gets hit. First to five wins!",
+            "desc": "Pong+ is a  2 player game where one is shooting the pong balls, and the other has to avoid them. You score when the other player gets hit. First to five wins!",
             "date": "April 4, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Pong+"
