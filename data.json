@@ -64,6 +64,14 @@
         }
     ],
     "javascriptProjects": [{
+            "name": "Tritris",
+            "link": "https://goel25.github.io/tritris/",
+            "imgPath": "img/tritris.png",
+            "desc": "I made Tetris with Triangles! I also made a <a class='link' href='https://youtu.be/HMkfj1OJ08Q'>Youtube video</a> on it! I'm very happy with how the game turned out, as well as the success of the Youtube video!",
+            "date": "Jan 2, 2021",
+            "language": "Javascript",
+            "codeLink": "https://github.com/Goel25/tritris"
+        }, {
             "name": "NEAT Steering",
             "link": "https://goel25.github.io/CarsNEAT/",
             "imgPath": "img/NEATSteering.jpg",
