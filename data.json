@@ -67,7 +67,7 @@
             "name": "Tritris",
             "link": "https://goel25.github.io/tritris/",
             "imgPath": "img/tritris.png",
-            "desc": "I made Tetris with Triangles! I also made a <a class='link' href='https://youtu.be/HMkfj1OJ08Q'>Youtube video</a> on it! I'm very happy with how the game turned out, as well as the success of the Youtube video!",
+            "desc": "I made Tetris with Triangles! I also made a <a class='link' href='https://youtu.be/HMkfj1OJ08Q'>Youtube video</a> on it! I'm very happy with how the game turned out, as well as the success of the Youtube video! This is the first project I've made in which people have actually interacted with my project. It has spawned an incredible community that pushed the game to its limits.",
             "date": "Jan 2, 2021",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/tritris"
@@ -75,7 +75,7 @@
             "name": "NEAT Steering",
             "link": "https://goel25.github.io/CarsNEAT/",
             "imgPath": "img/NEATSteering.jpg",
-            "desc": "An implementation of the <a class='link' href='http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf'>Neuro Evolution of Augmenting Topologies</a>, or NEAT. I combined it with a car steering simulation that teaches cars to drive around a track. Overall, I spent far too much time on this project, and had to remove Speciation from my implementation because it would not learn with it.",
+            "desc": "An implementation of the <a class='link' href='http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf'>Neuro Evolution of Augmenting Topologies</a>, or NEAT. I combined it with a car steering simulation that teaches cars to drive around a track.  Overall, I spent a long time on this project and while I had to remove speciation from my implementation, it was generally succesfull. I hope to return one day and make a more sophisticated learning environment to better test the network.",
             "date": "March 2, 2020",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/CarsNEAT"
@@ -91,7 +91,7 @@
             "name": "Mario Pong",
             "link": "https://mario-pong.herokuapp.com/",
             "imgPath": "img/MarioPongThumbnail.jpg",
-            "desc": "An online multiplayer game of pong, except with elements of Mario! I spent ~2 months and an estimated 50 hours working on this, and I'm very proud of the result. It has 2,000 lines of code, including the Server (written in Node), and the client (using p5.js)",
+            "desc": "An online multiplayer game of pong, except with elements of Mario! I spent ~2 months and an estimated 50 hours working on this, and I'm very proud of the result. It has 2,000 lines of code, including the Server (written in Node), and the client (using p5.js).",
             "date": "June 11, 2019",
             "language": "Javascript (Node)",
             "codeLink": "/#"
@@ -99,7 +99,7 @@
             "name": "Asteroids",
             "link": "https://goel25.github.io/p5projects/Asteroids/",
             "imgPath": "img/AsteroidsThumbnail.jpg",
-            "desc": "The classic Asteroids game, made in a couple of days for a <a class='link' href='https://www.youtube.com/watch?v=qb8EJ7u-b68'>a speed coding youtube video</a>. I'm happy with the result, and it is pretty fun to play",
+            "desc": "The classic Asteroids game, made in a couple of days for a <a class='link' href='https://www.youtube.com/watch?v=qb8EJ7u-b68'>speed coding youtube video</a>. I'm happy with the result, and it is pretty fun to play.",
             "date": "Aug 3, 2018",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Asteroids"
@@ -108,7 +108,7 @@
             "name": "Dog VS Cat Classifier",
             "link": "https://goel25.github.io/p5projects/dogsVsCats/",
             "imgPath": "img/dogVsCat.jpg",
-            "desc": "A classic neural network classifiation problem, the dogs and cats example. I really wanted to attempt this and try it, and see what it identifies my own cat as. As with the color predictor, there was a problem with the neural network, which caused a bit of trouble. Once that had been fixed, it can correctly identify a set of 10 dogs/cats after 100 generations. Although it is extremely overfit, this gives me hope that it is somewhat capable.",
+            "desc": "A classic neural network classifiation problem, the dogs and cats example. I really wanted to attempt this and see what it identifies my own cat as. It uses a naive neural network, but after enough overfitting can work. I'll need to properly redo this eventually.",
             "date": "May 16, 2018",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/dogsVsCats"
@@ -204,15 +204,6 @@
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Pixelvasion"
         },
         {
-            "name": "Harris B-day",
-            "link": "https://goel25.github.io/p5projects/Harris%20B-day/",
-            "imgPath": "img/HarrisB-day.jpg",
-            "desc": "Instead of making a birthday card for my brother, I programmed this. He watches a twitch streamer called phonecats, and this is his sub music, he also really wants a cat.",
-            "date": "April 12, 2017",
-            "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Harris%20B-day"
-        },
-        {
             "name": "Pong+",
             "link": "https://Goel25.github.io/p5projects/Pong+",
             "imgPath": "img/Pong+.jpg",
@@ -225,7 +216,7 @@
             "name": "ShapesGame+",
             "link": "https://Goel25.github.io/p5projects/ShapesGame+",
             "imgPath": "img/ShapesGame+.jpg",
-            "desc": "ShapesGame+ is an updated version of ShapesGame. Your player (white circle) will follow the mouse, and you have collect the dots to grow, get faster and gain score. You have to avoid the red squares being shot at you from the center. This version uses vectors, rotation",
+            "desc": "ShapesGame+ is an updated version of ShapesGame. Your player (white circle) will follow the mouse, and you have collect the dots to grow, get faster and gain score. You have to avoid the red squares being shot at you from the center. This version uses vectors and rotation.",
             "date": "Jan 22, 2017",
             "language": "Javascript",
             "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/ShapesGame+"
