@@ -12,6 +12,7 @@ let javaCont;
 let scrollAmount;
 let scrollInterval;
 let scrollPercent = .025;
+let prevPos = 0; //To know when to stop auto scrolling
 
 function setup() {
   scrollAmount = document.getElementById("landingPage").offsetHeight;
@@ -81,6 +82,14 @@ function startScroll() {
       clearInterval(scrollInterval);
     }
   }, 1);
+}
+
+window.onscroll = () => {
+    if (window.scrollY <= prevPos) {
+        //If scrolled up or not at all, stop auto scroll
+        clearInterval(scrollInterval);
+    }
+    prevPos = window.scrollY;
 }
 
 function draw() {
