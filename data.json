@@ -64,6 +64,14 @@
         }
     ],
     "javascriptProjects": [{
+            "name": "Tritris Multiplayer",
+            "link": "https://tritris-beta.herokuapp.com",
+            "imgPath": "img/tritrisMulti.png",
+            "desc": "With a growing community around Tritris, I began work on an online multiplayer version to allow players to better compete. It was extremely challenging to ensure that, even under laggy conditions, the gameplay would stay smooth. I read <a class='link' href='https://www.gabrielgambetta.com/client-server-game-architecture.html'>articles</a> explaining game architecture and, after many troubles, got it working quite well. Multiplayer is currently in beta and I still have many plans!",
+            "date": "May 17, 2021",
+            "language": "Javascript (Node)",
+            "codeLink": "https://github.com/Goel25/tritrisMultiplayer"
+        }, {
             "name": "Tritris",
             "link": "https://goel25.github.io/tritris/",
             "imgPath": "img/tritris.png",
