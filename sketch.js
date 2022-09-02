@@ -5,7 +5,7 @@ let id = 0;
 let kittenCode = "javascript:(function() { let srcs = ['https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-29-57b30ad229af3__605.jpg', 'https://www.petsworld.in/blog/wp-content/uploads/2015/09/Cat-makes-Smile.jpg', 'https://www.warrenphotographic.co.uk/photography/bigs/15707-Cute-fluffy-silver-tortoiseshell-kitten-white-background.jpg', 'https://i.pinimg.com/736x/b4/6b/07/b46b079df6f47c093f7c123e70776892--fluffy-kittens-cute-kitten-fluffy.jpg', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpjYKnbQu-at9y18z9Tu48R-TnQ_3DFpSTMQlxaZST26faIwIPlQ']; let types = ['p', 'h1', 'span', 'button', 'li']; let imgs = document.getElementsByTagName('img'); let word = prompt('Enter a sentence here', 'Kittens!'); for (let i = 0; i < imgs.length; i++) { imgs[i].src = srcs[i % srcs.length] } for (type of types) { let elts = document.getElementsByTagName(type); for (elt of elts) { elt.innerHTML = word; } } })()";
 let offset = 0;
 let rdy = false;
-let bioCont;
+// let bioCont;
 let jsCont;
 let javaCont;
 
@@ -25,19 +25,22 @@ function setup() {
   });
 
   projectsContainer = select(".projects-container");
-  bioCont = select("#bioCont");
+  // bioCont = select("#bioCont");
   jsCont = select("#jsCont");
   javaCont = select("#javaCont");
   setTimeout(() => {
-    bioCont.style("display", "block")
+    // bioCont.style("display", "block")
     let footer = select("footer");
-    let theBioCont = select("#theBioContainer");
+    // let theBioCont = select("#theBioContainer");
     footer.style("display", "block");
+    jsCont.style("display", "block");
+    /*
     if (theBioCont.height < windowHeight - document.getElementsByTagName("footer")[0].offsetHeight) {
       bioCont.style("height", (windowHeight - document.getElementsByTagName("footer")[0].offsetHeight) + "px");
     } else {
       bioCont.style("height", (theBioCont.height + document.getElementsByTagName("footer")[0].offsetHeight + 10) + "px");
     }
+    */
   }, 100);
 }
 
@@ -47,7 +50,7 @@ function windowResized() {
 
 function javascript() {
   jsCont.style("display", "block");
-  bioCont.style("display", "none");
+  // bioCont.style("display", "none");
   javaCont.style("display", "none");
 
   if (ready) {
@@ -55,16 +58,18 @@ function javascript() {
   }
 }
 
+/*
 function bio() {
-  bioCont.style("display", "block");
+  // bioCont.style("display", "block");
   javaCont.style("display", "none");
   jsCont.style("display", "none");
   startScroll();
 }
+*/
 
 function java() {
   javaCont.style("display", "block");
-  bioCont.style("display", "none");
+  // bioCont.style("display", "none");
   jsCont.style("display", "none");
   if (ready) {
     startScroll();
