@@ -1,57 +1,57 @@
 {
     "javaProjects": [{
             "name": "Flappy Bird AI",
-            "link": "https://goel25.github.io/processingProjects/flappyBirdAI%20(Java%20Web%20Version)/",
+            "link": "https://leognon.github.io/processingProjects/flappyBirdAI%20(Java%20Web%20Version)/",
             "imgPath": "img/flappyBirdAI.jpg",
             "desc": "This is a combination of a neural network and genetic algorithm to beat flappy bird. This was made in a few days at a programming camp. I copied the NN and GA from my other Javascript projects, and translated them into Java. Overall it does pretty well, although other Flappy Bird AI's can do much  better. I'm not completely sure why they are (perhaps they use a much better NN, like tensorflow). This is my overall favorite project as it is the most impressive and combines all of my (Java) knowledge into a single project.",
             "date": "~June 18, 2018",
             "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/flappyBirdAI%20(Java%20Web%20Version)"
+            "codeLink": "https://github.com/leognon/processingProjects/tree/gh-pages/flappyBirdAI%20(Java%20Web%20Version)"
         },
         {
             "name": "Geometric Designs",
-            "link": "https://goel25.github.io/processingProjects/geometricDesigns/",
+            "link": "https://leognon.github.io/processingProjects/geometricDesigns/",
             "imgPath": "img/geometricDesigns.jpg",
             "desc": "This was just a quick project I made after watching a <a class='link' href='https://www.youtube.com/watch?v=LaarVR1AOvs'>youtube video about vintage computer art</a>. It uses a combination of sin and cos for the x and y points of a line, and creates a cool screen saver effect.",
             "date": "October 14, 2017",
             "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/geometricDesigns"
+            "codeLink": "https://github.com/leognon/processingProjects/tree/gh-pages/geometricDesigns"
         },
         {
             "name": "Bubbles and Guts",
-            "link": "https://goel25.github.io/processingProjects/bubblesAndGuts/",
+            "link": "https://leognon.github.io/processingProjects/bubblesAndGuts/",
             "imgPath": "img/bubblesAndGuts.jpg",
             "desc": "I made this game for the 25th Weekly Hour Game Jam. The theme was life after death. You start out small, and you become what eats you, so you can stay as a lower level shape and eat smaller things for less points, or level up quickly and eat bigger shapes, but eventually you'll run out and have nothing to eat.",
             "date": "June 19, 2017",
             "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/bubblesAndGuts"
+            "codeLink": "https://github.com/leognon/processingProjects/tree/gh-pages/bubblesAndGuts"
         },
         {
             "name": "Snake Game",
-            "link": "https://goel25.github.io/processingProjects/snakeGame/",
+            "link": "https://leognon.github.io/processingProjects/snakeGame/",
             "imgPath": "img/snakeGame.jpg",
             "desc": "The classic snake game. I made this in about 40 minutes for a <a class='link' href='https://youtu.be/VsWNhSDneGk'>speed coding youtube video</a>. Use the arrow keys to move, eat the red cherries to grow and don't run into your tail.",
             "date": "June 13, 2017",
             "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/snakeGame"
+            "codeLink": "https://github.com/leognon/processingProjects/tree/gh-pages/snakeGame"
         },
         {
             "name": "Stay On The Road",
-            "link": "https://goel25.github.io/processingProjects/stayOnTheRoad/",
+            "link": "https://leognon.github.io/processingProjects/stayOnTheRoad/",
             "imgPath": "img/StayOnTheRoad.jpg",
             "desc": "This is a remake of the game stay on the road. I saw it and decided ot attempt a remake of it. I didn't work on it for long, so I only added 2 types of path. To play, keep your mouse on the grey for as long as possible.",
             "date": "June 11, 2017",
             "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/stayOnTheRoad"
+            "codeLink": "https://github.com/leognon/processingProjects/tree/gh-pages/stayOnTheRoad"
         },
         {
             "name": "Shape Shooter",
-            "link": "https://goel25.github.io/processingProjects/shapeShooter/",
+            "link": "https://leognon.github.io/processingProjects/shapeShooter/",
             "imgPath": "img/shapeShooter.jpg",
             "desc": "This is one of my proudest games, Shaper Shooter. I spent about 3 weeks working on it and added as many powerups and enemies as I could, and I'm very happy with how it turned out.",
             "date": "May 7, 2017",
             "language": "Java",
-            "codeLink": "https://github.com/Goel25/processingProjects/tree/gh-pages/shapeShooter"
+            "codeLink": "https://github.com/leognon/processingProjects/tree/gh-pages/shapeShooter"
         },
         {
             "name": "Really old Java",
@@ -60,7 +60,7 @@
             "desc": "Before p5js, I watched the New Bostons java tutorials. I didn't completely understand what I was doing, but I still made some stuff.",
             "date": "June 23, 2016",
             "language": "Java",
-            "codeLink": "https://github.com/Goel25/oldProjects/tree/master/1st"
+            "codeLink": "https://github.com/leognon/oldProjects/tree/master/1st"
         }
     ],
     "javascriptProjects": [{
@@ -70,23 +70,23 @@
             "desc": "With a growing community around Tritris, I began work on an online multiplayer version to allow players to better compete. It was extremely challenging to ensure that, even under laggy conditions, the gameplay would stay smooth. I read <a class='link' href='https://www.gabrielgambetta.com/client-server-game-architecture.html'>articles</a> explaining game architecture and, after many troubles, got it working quite well. Multiplayer is currently in beta and I still have many plans!",
             "date": "May 17, 2021",
             "language": "Javascript (Node)",
-            "codeLink": "https://github.com/Goel25/tritrisMultiplayer"
+            "codeLink": "https://github.com/leognon/tritrisMultiplayer"
         }, {
             "name": "Tritris",
-            "link": "https://goel25.github.io/tritris/",
+            "link": "https://leognon.github.io/tritris/",
             "imgPath": "img/tritris.png",
             "desc": "I made Tetris with Triangles! I also made a <a class='link' href='https://youtu.be/HMkfj1OJ08Q'>Youtube video</a> on it! I'm very happy with how the game turned out, as well as the success of the Youtube video! This is the first project I've made in which people have actually interacted with my project. It has spawned an incredible community that pushed the game to its limits.",
             "date": "Jan 2, 2021",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/tritris"
+            "codeLink": "https://github.com/leognon/tritris"
         }, {
             "name": "NEAT Steering",
-            "link": "https://goel25.github.io/CarsNEAT/",
+            "link": "https://leognon.github.io/CarsNEAT/",
             "imgPath": "img/NEATSteering.jpg",
             "desc": "An implementation of the <a class='link' href='http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf'>Neuro Evolution of Augmenting Topologies</a>, or NEAT. I combined it with a car steering simulation that teaches cars to drive around a track.  Overall, I spent a long time on this project and while I had to remove speciation from my implementation, it was generally succesfull. I hope to return one day and make a more sophisticated learning environment to better test the network.",
             "date": "March 2, 2020",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/CarsNEAT"
+            "codeLink": "https://github.com/leognon/CarsNEAT"
         }, {
             "name": "Shapes Game 3",
             "link": "https://shapesgame.herokuapp.com/",
@@ -94,7 +94,7 @@
             "desc": "Another online multiplayer game, except games can contain more than 2 players. It's very similar to agar.io, but has some added features like layers, sqaures and shooting. Overall I'm mostly happy with the result, although there are some issues with lag and I spent more time than I would have liked on it.",
             "date": "Dec 3, 2019",
             "language": "Javascript (Node)",
-            "codeLink": "https://github.com/Goel25/ShapesGame3"
+            "codeLink": "https://github.com/leognon/ShapesGame3"
         }, {
             "name": "Mario Pong",
             "link": "https://mario-pong.herokuapp.com/",
@@ -105,57 +105,57 @@
             "codeLink": "/#"
         }, {
             "name": "Asteroids",
-            "link": "https://goel25.github.io/p5projects/Asteroids/",
+            "link": "https://leognon.github.io/p5projects/Asteroids/",
             "imgPath": "img/AsteroidsThumbnail.jpg",
             "desc": "The classic Asteroids game, made in a couple of days for a <a class='link' href='https://www.youtube.com/watch?v=qb8EJ7u-b68'>speed coding youtube video</a>. I'm happy with the result, and it is pretty fun to play.",
             "date": "Aug 3, 2018",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Asteroids"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/Asteroids"
         },
         {
             "name": "Dog VS Cat Classifier",
-            "link": "https://goel25.github.io/p5projects/dogsVsCats/",
+            "link": "https://leognon.github.io/p5projects/dogsVsCats/",
             "imgPath": "img/dogVsCat.jpg",
             "desc": "A classic neural network classifiation problem, the dogs and cats example. I really wanted to attempt this and see what it identifies my own cat as. It uses a naive neural network, but after enough overfitting can work. I'll need to properly redo this eventually.",
             "date": "May 16, 2018",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/dogsVsCats"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/dogsVsCats"
         },
         {
             "name": "Color Predictor",
-            "link": "https://goel25.github.io/p5projects/colorPredictor/",
+            "link": "https://leognon.github.io/p5projects/colorPredictor/",
             "imgPath": "img/ColorPredictor.jpg",
             "desc": "For this project, I created a Neural Network which will determine if white text looks better against a background, or if black text looks better. It works well most of the time, except for a long time there was an issue with the Neural Network that I hadn't noticed, and that was ruining the results.",
             "date": "April 28, 2018",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/colorPredictor"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/colorPredictor"
         },
         {
             "name": "Langtons Ant",
-            "link": "https://goel25.github.io/p5projects/LangtonsAnt/",
+            "link": "https://leognon.github.io/p5projects/LangtonsAnt/",
             "imgPath": "img/langtonsAnt.jpg",
             "desc": "This is an example of a popular cellular automata, where there is an ant placed on a grid of white cells. Each frame, if the ant is on a white cell it turns right, changes the color of the cell and moves a step forward. If the ant is on a black cell, it turns left, changes the color of the cell and moves forward. In my version, you can add multiple ants by presseding A, and change the speed of the simulation by pressing S.",
             "date": "Mar 3, 2018",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/LangtonsAnt"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/LangtonsAnt"
         },
         {
             "name": "Car Genetic Algorithm",
-            "link": "https://goel25.github.io/p5projects/carGA/",
+            "link": "https://leognon.github.io/p5projects/carGA/",
             "imgPath": "img/carGA.jpg",
             "desc": "My very first Genetic Algorithm! Largely inspired from the Daniel Shiffman's <a class='link' href='http://natureofcode.com/book/chapter-9-the-evolution-of-code/'>Smart Rockets example.</a> In my version, you can place multiple obstacles, create a custom path and save/load a simulation with the (hopefully) user friendly interface. It took 63 days to make this, an I'm very happy with the finished product! I also made <a class='link' href='https://www.youtube.com/watch?v=jIM7MxRYlEM'>a short youtube video</a> explaining and demonstrating it.",
             "date": "Dec 22, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/carGA"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/carGA"
         },
         {
             "name": "Coloring 2",
-            "link": "https://goel25.github.io/p5projects/Coloring2/",
+            "link": "https://leognon.github.io/p5projects/Coloring2/",
             "imgPath": "img/coloring2.jpg",
             "desc": "For my 1 year programming anniversary, I remade my first p5.js project, but much better this time, using arrays, better input, math, loops, logic, and beginShape and endShape. In this version, you can change stroke thickness, undo lines, change color, and erase the entire drawing.",
             "date": "Dec 3, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Coloring2"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/Coloring2"
         },
         {
             "name": "Kittenator",
@@ -168,102 +168,102 @@
         },
         {
             "name": "Home Page",
-            "link": "https://goel25.github.io/",
+            "link": "https://leognon.github.io/",
             "imgPath": "img/homePage.jpg",
             "desc": "I made this to organize all of my projects, and have a way to access them when I'm not locally on my computer.",
             "date": "October 14, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/goel25/goel25.github.io"
+            "codeLink": "https://github.com/leognon/leognon.github.io"
         },
         {
             "name": "Word Finder",
-            "link": "https://goel25.github.io/p5projects/Word%20Finder",
+            "link": "https://leognon.github.io/p5projects/Word%20Finder",
             "imgPath": "img/wordFinder.jpg",
             "desc": "I made this as a cheat for a mobile game called Word Cookies. In the game, you get a bunch of letters and have to make words of different lengths using those letters.",
             "date": "August 11, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Word%20Finder"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/Word%20Finder"
         },
         {
             "name": "Space Escape",
-            "link": "https://goel25.github.io/p5projects/Space%20Escape/",
+            "link": "https://leognon.github.io/p5projects/Space%20Escape/",
             "imgPath": "img/spaceEscape.jpg",
             "desc": "This was made for my 7th grade Shark Tank ELA project. First, since I was bored after the test I made the game on a piece of paper, but with my group, we came up with this idea for the game. I programmed it during school, and Noah and Dominic did the music and some graphics.",
             "date": "June 2, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Space%20Escape"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/Space%20Escape"
         },
         {
             "name": "Wrote on Piece of paper",
-            "link": "https://Goel25.github.io/p5projects/ELA_SharkTankGame",
+            "link": "https://leognon.github.io/p5projects/ELA_SharkTankGame",
             "imgPath": "img/ELA_SharkTankGame.jpg",
             "desc": "This is a game that I wrote on a piece of paper, after a 7th grade end of grade test. Later, I copied the code onto my computer, and after a little while of fixing some bugs, I had it working. You move up and down with your mouse, and avoid the red rectangles coming at you.",
             "date": "May 29, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/ELA_SharkTankGame"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/ELA_SharkTankGame"
         },
         {
             "name": "Pixelvasion",
-            "link": "https://Goel25.github.io/p5projects/Pixelvasion",
+            "link": "https://leognon.github.io/p5projects/Pixelvasion",
             "imgPath": "img/Pixelvasion.jpg",
             "desc": "This is a game I made (and won) for the <a class='link' href='https://itch.io/jam/pixel-jam'>itch.io Pixel Jam</a>. In this game, you are defending the earth from an army of pixel monsters, who are trying to pixelate the world.",
             "date": "April 17, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Pixelvasion"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/Pixelvasion"
         },
         {
             "name": "Pong+",
-            "link": "https://Goel25.github.io/p5projects/Pong+",
+            "link": "https://leognon.github.io/p5projects/Pong+",
             "imgPath": "img/Pong+.jpg",
             "desc": "Pong+ is a  2 player game where one is shooting the pong balls, and the other has to avoid them. You score when the other player gets hit. First to five wins!",
             "date": "April 4, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Pong+"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/Pong+"
         },
         {
             "name": "ShapesGame+",
-            "link": "https://Goel25.github.io/p5projects/ShapesGame+",
+            "link": "https://leognon.github.io/p5projects/ShapesGame+",
             "imgPath": "img/ShapesGame+.jpg",
             "desc": "ShapesGame+ is an updated version of ShapesGame. Your player (white circle) will follow the mouse, and you have collect the dots to grow, get faster and gain score. You have to avoid the red squares being shot at you from the center. This version uses vectors and rotation.",
             "date": "Jan 22, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/ShapesGame+"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/ShapesGame+"
         },
         {
             "name": "Turrets",
-            "link": "https://Goel25.github.io/p5projects/Game",
+            "link": "https://leognon.github.io/p5projects/Game",
             "imgPath": "img/Game.jpg",
             "desc": "This is an unfinished game. You move towards your mouse, and click to shoot. There are turrets that shoot at you, but there is no collision detection so nothing happens when you or the turrets get hit. Althuough it isn't really playable and broken, I was able to reuse a lot of the code for other projects.",
             "date": "Jan 2, 2017",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Game"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/Game"
         },
         {
             "name": "Maze",
-            "link": "https://Goel25.github.io/p5projects/Maze",
+            "link": "https://leognon.github.io/p5projects/Maze",
             "imgPath": "img/Maze.jpg",
             "desc": "In this game, you have to solve a randomly generated maze within the time limit. Credit to Daniel Shiffman for the maze generation algorithm and code. Each level, the maze gets more and more difficult.",
             "date": "Dec 13, 2016",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Maze"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/Maze"
         },
         {
             "name": "ShapesGame",
-            "link": "https://Goel25.github.io/p5projects/ShapesGame",
+            "link": "https://leognon.github.io/p5projects/ShapesGame",
             "imgPath": "img/ShapesGame.jpg",
             "desc": "ShapesGame is one of my first games, where you have to collect dots and avoid squares. Since it's one of my first games, it doesn't use vectors so you can move faster by going diagonally.",
             "date": "December 8, 2016",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/ShapesGame"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/ShapesGame"
         },
         {
             "name": "Coloring",
-            "link": "https://goel25.github.io/p5projects/Coloring%20-%20My%20first%20project%20(Dec%203,%202016)/",
+            "link": "https://leognon.github.io/p5projects/Coloring%20-%20My%20first%20project%20(Dec%203,%202016)/",
             "imgPath": "img/coloring.jpg",
             "desc": "My very first p5js program! Altough I did do some java before this, I consider this my first programming project, because this was the first time I really started to understand what I was doing. Thanks to Daniel Shiffman for teaching me 99% of what I know.",
             "date": "Dec 3, 2016",
             "language": "Javascript",
-            "codeLink": "https://github.com/Goel25/p5projects/tree/gh-pages/Coloring%20-%20My%20first%20project%20(Dec%203%2C%202016)"
+            "codeLink": "https://github.com/leognon/p5projects/tree/gh-pages/Coloring%20-%20My%20first%20project%20(Dec%203%2C%202016)"
         },
         {
             "name": "Minecraft Skript",
@@ -272,7 +272,7 @@
             "desc": "When I had my Minecraft server, since I didn't know Java, I used a plugin called Skript to program. It's a lot like python and helped me learn the very basics of programming.",
             "date": "~Jan 18, 2016",
             "language": "Minecraft Skript Plugin",
-            "codeLink": "https://github.com/Goel25/oldProjects/tree/master/scripts"
+            "codeLink": "https://github.com/leognon/oldProjects/tree/master/scripts"
         }
     ]
 }
