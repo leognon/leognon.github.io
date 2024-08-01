@@ -8,97 +8,27 @@
   <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300" rel="stylesheet">
   <script src="addons/p5.min.js"></script>
   <script src="addons/p5.dom.min.js"></script>
+  <script src="sketch.js"></script>
 
   <link rel='icon' href='img/favicon.jpg' type='image/x-icon' />
-  <!-- <script src="addons/p5.sound.min.js"></script> -->
-  <script src="sketch.js"></script>
-  <!-- <script>
-    function resizeIframe(obj) {
-      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-    }
-  </script> -->
 
-  <title>Leo Gagnons Programming</title>
+  <title>Leo Gagnon</title>
 </head>
 
 <body>
-  <div id="landingPage" style="width:100%; height:100%;">
-    <h1 class="mainTitle noselect" style="margin: 0px; padding-top: 3%">programming&nbsp&nbspprojects</h1>
-    <div id="block" style="height: 5%;"> </div>
-    <div id="buttonContainer" style="text-align: center;">
-      <div>
-        <button style="margin-right: 15px; " class="button" onclick="javascript()">js</button>
-        <button style="margin-right: 15px;" class="button" onclick="java()">java</button>
-        <a href="https://goel.itch.io"><button style="margin-right: 15px;" class="button">C#</button></a>
-        <!--<button style="background-color: rgb(102, 240, 146)" class="button" onclick="bio()">bio</button>-->
-      </div>
+    <h1 id="mainTitle">leo gagnon</h1>
+    <div style="width: 50%; margin-left: auto; margin-right: auto">
+      Hello! I am a junior at MIT studying computer science and mathematics. In particular, I am interested in
+      programming languages and formal methods. I am also a teaching assistant for
+      <a href="https://math.mit.edu/~sipser/18404/">18.404</a>, on the rock climbing team, technology chair of
+      the Undergraduate Mathematics Association, and the creator of <a href="https://leognon.com/tritris">tritris</a>.
     </div>
-    <div id=" block" style="height: 4%;"> </div>
-    <h1 class="noselect" style="font-size: 350%; text-align: center; font-family: 'Open Sans Condensed', sans-serif;">L
-      E O&nbsp&nbsp&nbspG A G N O N</h1>
-  </div>
+    <div style="text-align: center;">
+        <a href="https://github.com/leognon">github</a>
 
-
-  <div class="projects-container">
-    <!--
-    <div id="bioCont" class="langContainer" style="display: none;">
-      <div class="container" id="theBioContainer">
-        <h2 class="title">About Me</h2>
-        <div class="leftDIV" style="padding-right: 10px; padding-bottom: 10px;">
-          <img src="img/bioPic.png" alt="Picture" class="img left"></img>
-        </div>
-        <div class="rightDIV">
-          <div class="rightContainer">
-            <p class="descBox" style="text-align: left; font-size: 20px; font-family: 'Dosis', sans-serif;">
-              My programming journey began with my fascination of Minecraft. I became obsessed first with building, but once I discovered the the game had its own built in programming system, I became hooked on coding. I bought a Minecraft server and programmed in a custom scripting language called Skript, which was a lot like Python. Since Minecraft was written in Java, I couldn't wait to learn the language. Over the summer, I watched TheNewBostons Java tutorials, and learned basic Java.
-              <br /><br />
-              During the next few months I started to become frustrated with my progress, since I did not know how to make exciting programs, until I found The Coding Train's p5.js tutorials by Daniel Shiffman. Not only was Daniel Shiffman educational, he was also fun! I proceeded to binge watch The Coding Train's entire series in a couple of weeks. Daniel Shiffman's love for programming was infectious, as I was now able to create much more interesting, visual games. After concentrating on javascript for a while, I decided to go back to Java, but this time I used the processing library, which is the Java version of p5.js.
-              <br /><br />
-              During Spring Break, my parents surprised me by taking me to New York to meet Daniel Shiffman. As a professor at NYU, he gave me a tour of the technology department, including his YouTube studio where I have enjoyed watching and learning his tutorials. With a clear passion for coding, this was an incredible experience, to put it lightly.
-              <br /><br />
-              Eventually, I wanted to make more complex games, with an actual game engine. I watched Brackey's tutorials to learn C#, along with Unity. I participated in multiple game jams on itch.io, which were all awesome experiences. I went back to Javascript to create a Genetic Algorithm. I then programming a Neural Network, which I would translate into Java to teach my computer to play flappy bird. I also learned Python as it is a popular language for machine learning and created a few more AI projects.
-              <br /><br />
-              Today, I am focused on Competitive Programming using C++. Through websites like CodeForces and Google Kickstart I enjoy solving problems and competing in regular programming contets. While I am still learning, each problem presents a new and exciting challenge that I can hopefully work to solve.
-            </p>
-            <div class="infoBox">
-              <p class="none">Date: Feb 25, 2004</p>
-              <p class="none">Language: English</p>
-              <p class="none">Code: <a class="none" href="https://github.com/Goel25">Click here</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="formatFix"></div>
-      </div>
+        <a href="https://linkedin.com/in/leo-gagnon">linkedin</a>
     </div>
-    -->
-
-    <div id="jsCont" class="langContainer"></div>
-    <div id="javaCont" class="langContainer"></div>
-    <!-- <iframe style="display:none;" class="itchio" frameborder="0" is="x-frame-bypass" src="https://goel.itch.io/"></iframe> -->
-    <!-- <iframe style="display: none;" frameborder="0" class="itchio" src="http://x-frame-options-bypass.herokuapp.com/?url=https://goel.itch.io/"'></iframe> -->
-
-    <footer style="display: none;">
-      <p class="footerText">Contact: leognon@gmail.com&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCopyright @ Just kidding, theres no copyright</p>
-    </footer>
-  </div>
+      email: leognon at gmail
 </body>
 
 </html>
-<!-- <div class="container" id="0">
-      <h2 class="title"><a class="none" href="LINK TO PLAY">FlappyBird AI</a></h2>
-      <div class="leftDIV">
-        <a class="none" href="LINK TO PLAY"><img src="img/flappyBirdAI.jpg" alt="Flappy Bird AI img" class="img left"></img></a>
-      </div>
-      <div class="rightDIV">
-        <div class="rightContainer">
-          <p class="descBox">This is a combination of a neural network and genetic algorithm to beat flappy bird.
-            This was made in a few days at a programming camp. I copied the NN and GA from my other Javascript
-            projects, and translated them into Java. Overall it does pretty well, although other Flappy Bird AI' s can do much better. I'm not completely sure why they are (perhaps they use a much better NN, like tensorflow). This is my overall favorite project as it is the most impressive and combines all of my (Java) knowledge into a single project.</p> <div class="infoBox">
-      <p class="none">Date: ~June 18, 2018</p>
-      <p class="none">Language: Java</p>
-      <p class="none">Code: <a class="none" href="LINK TO CODE">Click here</a></p>
-  </div>
-  </div>
-  </div>
-  <div class="formatFix"></div>
-  </div> -->
