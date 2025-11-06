@@ -1,11 +1,13 @@
 let offset = 0;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight).position(0, 0);
+  let height = max(windowHeight, document.body.scrollHeight);
+  createCanvas(windowWidth, height).position(0, 0);
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  let height = max(windowHeight, document.body.scrollHeight);
+  resizeCanvas(windowWidth, height);
 }
 
 function draw() {

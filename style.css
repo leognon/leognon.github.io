@@ -1,6 +1,7 @@
 body {
   font-size: 18pt;
   text-align: center;
+  background-color: rgb(225,225,225);
 }
 
 canvas {
